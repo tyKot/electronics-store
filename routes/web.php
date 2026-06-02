@@ -12,6 +12,10 @@ use App\Http\Controllers\ProfileController;
 use App\Models\Order;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/dashboard', function () {
+    return redirect(route('home'));
+})->name('dashboard');
+
 // Главная
 Route::get('/', [CatalogController::class, 'index'])->name('home');
 

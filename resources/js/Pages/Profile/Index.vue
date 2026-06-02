@@ -69,6 +69,8 @@ const savePassword = () => {
     });
 };
 
+const expandedRows = ref({});
+
 // --- Утилиты ---
 const formatPrice = (price) => new Intl.NumberFormat("ru-RU").format(price);
 
@@ -139,11 +141,29 @@ const removeFromFavorites = (productId) => {
                             <div class="py-4">
                                 <DataTable
                                     :value="orders.data"
+                                    v-model:expandedRows="expandedRows"
                                     stripedRows
                                     responsiveLayout="scroll"
                                     emptyMessage="У вас пока нет заказов"
-                                    class="[&_.p-datatable-thead>tr>th]:!bg-transparent [&_.p-datatable-thead>tr>th]:!text-slate-500"
+                                    dataKey="id"
+                                    class="[&_.p-datatable-thead>tr>th]:!bg-transparent [&_.p-datatable-thead>tr>th]:!text-slate-500 [&_.p-datatable-row-expansion>td]:!bg-slate-50/50"
                                 >
+                                    <!-- Колонка раскрытия -->
+                                    <Column expander class="w-10">
+                                        <template #expandericon="{ expanded }">
+                                            <div
+                                                class="transition-transform duration-200"
+                                                :class="{
+                                                    'rotate-90': expanded,
+                                                }"
+                                            >
+                                                <i
+                                                    class="pi pi-chevron-right text-sm text-slate-400"
+                                                />
+                                            </div>
+                                        </template>
+                                    </Column>
+
                                     <Column
                                         field="order_number"
                                         header="№ Заказа"
@@ -151,8 +171,9 @@ const removeFromFavorites = (productId) => {
                                         <template #body="{ data }">
                                             <span
                                                 class="font-mono font-semibold text-slate-700"
-                                                >#{{ data.order_number }}</span
                                             >
+                                                #{{ data.order_number }}
+                                            </span>
                                         </template>
                                     </Column>
 
@@ -169,14 +190,14 @@ const removeFromFavorites = (productId) => {
 
                                     <Column field="total_amount" header="Сумма">
                                         <template #body="{ data }">
-                                            <span class="font-bold"
-                                                >{{
+                                            <span class="font-bold">
+                                                {{
                                                     formatPrice(
                                                         data.total_amount,
                                                     )
                                                 }}
-                                                ₽</span
-                                            >
+                                                ₽
+                                            </span>
                                         </template>
                                     </Column>
 
@@ -189,13 +210,14 @@ const removeFromFavorites = (productId) => {
                                         </template>
                                     </Column>
 
-                                    <Column>
+                                    <!-- <Column>
                                         <template #body="{ data }">
                                             <Button
-                                                icon="pi pi-eye"
+                                                icon="pi pi-external-link"
                                                 severity="secondary"
                                                 outlined
                                                 size="small"
+                                                title="Открыть страницу заказа"
                                                 @click="
                                                     router.visit(
                                                         route(
@@ -206,7 +228,248 @@ const removeFromFavorites = (productId) => {
                                                 "
                                             />
                                         </template>
-                                    </Column>
+                                    </Column> -->
+
+                                    <!-- ═══════════════════════════════════════ -->
+                                    <!--          ПОДТАБЛИЦА (EXPANSION)         -->
+                                    <!-- ═══════════════════════════════════════ -->
+                                    <template #expansion="{ data }">
+                                        <div class="p-4">
+                                            <!-- Заголовок подтаблицы -->
+                                            <div
+                                                class="flex items-center gap-2 mb-4"
+                                            >
+                                                <div
+                                                    class="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center"
+                                                >
+                                                    <i
+                                                        class="pi pi-box text-blue-600 text-sm"
+                                                    />
+                                                </div>
+                                                <h4
+                                                    class="font-semibold text-slate-700"
+                                                >
+                                                    Товары в заказе
+                                                </h4>
+                                                <span
+                                                    class="text-sm text-slate-400"
+                                                >
+                                                    ({{
+                                                        data.items?.length || 0
+                                                    }}
+                                                    шт.)
+                                                </span>
+                                            </div>
+
+                                            <!-- Таблица товаров заказа -->
+                                            <div
+                                                class="bg-white rounded-xl border border-slate-200 overflow-hidden"
+                                            >
+                                                <DataTable
+                                                    :value="data.items"
+                                                    responsiveLayout="scroll"
+                                                    class="[&_.p-datatable-thead>tr>th]:!bg-slate-100 [&_.p-datatable-thead>tr>th]:!text-slate-500 [&_.p-datatable-thead>tr>th]:!text-xs [&_.p-datatable-thead>tr>th]:!uppercase [&_.p-datatable-thead>tr>th]:!tracking-wider [&_.p-datatable-tbody>tr:last-child>td]:!border-b-0"
+                                                    size="small"
+                                                >
+                                                    <!-- Товар -->
+                                                    <Column
+                                                        header="Товар"
+                                                        class="min-w-[220px]"
+                                                    >
+                                                        <template
+                                                            #body="slotProps"
+                                                        >
+                                                            <div
+                                                                class="flex items-center gap-3"
+                                                            >
+                                                                <div
+                                                                    class="w-12 h-12 rounded-lg bg-slate-100 flex-shrink-0 overflow-hidden border border-slate-200"
+                                                                >
+                                                                    <img
+                                                                        v-if="
+                                                                            slotProps
+                                                                                .data
+                                                                                .product
+                                                                                ?.image
+                                                                        "
+                                                                        :src="
+                                                                            slotProps
+                                                                                .data
+                                                                                .product
+                                                                                .image
+                                                                        "
+                                                                        :alt="
+                                                                            slotProps
+                                                                                .data
+                                                                                .product
+                                                                                .name
+                                                                        "
+                                                                        class="w-full h-full object-cover"
+                                                                        @error="
+                                                                            $event.target.style.display =
+                                                                                'none'
+                                                                        "
+                                                                    />
+                                                                    <div
+                                                                        v-else
+                                                                        class="w-full h-full flex items-center justify-center"
+                                                                    >
+                                                                        <i
+                                                                            class="pi pi-image text-slate-300"
+                                                                        />
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="min-w-0"
+                                                                >
+                                                                    <p
+                                                                        class="font-medium text-slate-900 truncate"
+                                                                    >
+                                                                        {{
+                                                                            slotProps
+                                                                                .data
+                                                                                .product
+                                                                                ?.name ||
+                                                                            "Товар удалён"
+                                                                        }}
+                                                                    </p>
+                                                                    <p
+                                                                        class="text-xs text-slate-400"
+                                                                    >
+                                                                        {{
+                                                                            formatPrice(
+                                                                                slotProps
+                                                                                    .data
+                                                                                    .price,
+                                                                            )
+                                                                        }}
+                                                                        ₽ за шт.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </template>
+                                                    </Column>
+
+                                                    <!-- Кол-во -->
+                                                    <Column
+                                                        header="Кол-во"
+                                                        class="min-w-[80px]"
+                                                    >
+                                                        <template
+                                                            #body="slotProps"
+                                                        >
+                                                            <span
+                                                                class="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-slate-100 font-semibold text-slate-700"
+                                                            >
+                                                                {{
+                                                                    slotProps
+                                                                        .data
+                                                                        .quantity
+                                                                }}
+                                                            </span>
+                                                        </template>
+                                                    </Column>
+
+                                                    <!-- Цена -->
+                                                    <Column
+                                                        header="Цена"
+                                                        class="min-w-[120px]"
+                                                    >
+                                                        <template
+                                                            #body="slotProps"
+                                                        >
+                                                            <span
+                                                                class="text-slate-700"
+                                                            >
+                                                                {{
+                                                                    formatPrice(
+                                                                        slotProps
+                                                                            .data
+                                                                            .price,
+                                                                    )
+                                                                }}
+                                                                ₽
+                                                            </span>
+                                                        </template>
+                                                    </Column>
+
+                                                    <!-- Сумма -->
+                                                    <Column
+                                                        header="Сумма"
+                                                        class="min-w-[120px]"
+                                                    >
+                                                        <template
+                                                            #body="slotProps"
+                                                        >
+                                                            <span
+                                                                class="font-bold text-slate-900"
+                                                            >
+                                                                {{
+                                                                    formatPrice(
+                                                                        slotProps
+                                                                            .data
+                                                                            .subtotal,
+                                                                    )
+                                                                }}
+                                                                ₽
+                                                            </span>
+                                                        </template>
+                                                    </Column>
+
+                                                    <!-- Действия -->
+                                                    <Column class="w-16">
+                                                        <template
+                                                            #body="slotProps"
+                                                        >
+                                                            <Button
+                                                                v-if="
+                                                                    slotProps
+                                                                        .data
+                                                                        .product
+                                                                "
+                                                                icon="pi pi-eye"
+                                                                severity="secondary"
+                                                                text
+                                                                size="small"
+                                                                title="Посмотреть товар"
+                                                                @click="
+                                                                    router.visit(
+                                                                        route(
+                                                                            'products.show',
+                                                                            slotProps
+                                                                                .data
+                                                                                .product
+                                                                                .id,
+                                                                        ),
+                                                                    )
+                                                                "
+                                                            />
+                                                        </template>
+                                                    </Column>
+                                                </DataTable>
+
+                                                <!-- Итого подтаблицы -->
+                                                <div
+                                                    class="flex items-center justify-end gap-4 px-5 py-3 bg-slate-50 border-t border-slate-200"
+                                                >
+                                                    <span
+                                                        class="text-sm text-slate-500"
+                                                        >Итого по заказу:</span
+                                                    >
+                                                    <span
+                                                        class="text-lg font-bold text-blue-600"
+                                                    >
+                                                        {{
+                                                            formatPrice(
+                                                                data.total_amount,
+                                                            )
+                                                        }}
+                                                        ₽
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
                                 </DataTable>
 
                                 <!-- Пагинация заказов -->
@@ -241,14 +504,16 @@ const removeFromFavorites = (productId) => {
                         </TabPanel>
 
                         <!-- ❤️ Вкладка: Избранное -->
-                        <TabPanel :header="`Избранное (${favorites.length})`">
+                        <TabPanel
+                            :header="`Избранное (${props.favorites.data.length})`"
+                        >
                             <div class="py-4">
                                 <div
-                                    v-if="favorites.length > 0"
+                                    v-if="props.favorites.data.length > 0"
                                     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
                                 >
                                     <div
-                                        v-for="product in favorites"
+                                        v-for="product in props.favorites.data"
                                         :key="product.id"
                                         class="flex gap-4 p-4 rounded-xl border border-slate-200 hover:border-blue-300 transition-colors group"
                                     >

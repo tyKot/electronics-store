@@ -35,6 +35,7 @@ class Order extends Model
     protected $casts = [
         'status' => OrderStatus::class,
         'total_amount' => 'decimal:2',
+        'paid_at' => 'datetime',
     ];
 
     public function user(): BelongsTo

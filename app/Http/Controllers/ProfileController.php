@@ -21,7 +21,8 @@ class ProfileController extends Controller
         $user = $request->user();
 
         // Заказы с пагинацией
-        $orders = Order::where('user_id', $user->id)
+        $orders = Order::with('items')
+            ->where('user_id', $user->id)
             ->withCount('items')
             ->latest()
             ->paginate(5);
@@ -32,7 +33,6 @@ class ProfileController extends Controller
         $favorites = Product::whereIn('id', $favoriteIds)
             ->when($favoriteIds, fn($q) => $q->get(), fn($q) => collect())
             ->values();
-            // dd($favorites);
 
         // Статистика пользователя
         $stats = [

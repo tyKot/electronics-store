@@ -1,6 +1,6 @@
 <script setup>
 import { useDebounceFn } from "@vueuse/core";
-import { Link, router } from "@inertiajs/vue3";
+import { Link, router, usePage } from "@inertiajs/vue3";
 import { ref, watch, computed } from "vue";
 import Button from "primevue/button";
 import Tag from "primevue/tag";
@@ -15,6 +15,7 @@ import { useToast } from "primevue/usetoast";
 import placeholderImg from "@/images/placeholder.webp";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
 
+const page = usePage();
 const props = defineProps({
     products: Object,
     filters: Object,
@@ -156,6 +157,20 @@ const clearFilters = () => {
     tagsFilter.value = [];
     // applyFilters вызовется автоматически через watch
 };
+
+// watch(
+//     () => page.props.flash.success,
+//     (success) => {
+//         if (!success) {
+//             toast.add({
+//                 severity: "success",
+//                 summary: "Успех",
+//                 detail: page.props.flash.success || "Операция выполнена успешно",
+//                 life: 4000,
+//             });
+//         }
+//     },
+// );
 </script>
 
 <template>

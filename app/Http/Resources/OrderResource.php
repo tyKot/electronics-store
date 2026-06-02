@@ -11,12 +11,14 @@ class OrderResource extends JsonResource
     {
         return [
             'id' => $this->id,
+            'order_number' => $this->order_number,
+            'items_count' => $this->items_count,
             'status' => [
                 'value' => $this->status->value,
                 'label' => $this->status->label(),
                 'color' => $this->status->getStatusColor(),
             ],
-            'total_amount' => number_format($this->total_amount, 0, '.', ' '),
+            'total_amount' => $this->total_amount,
             'payment' => [
                 'transaction_id' => $this->transaction_id,
                 'method' => $this->payment_method,

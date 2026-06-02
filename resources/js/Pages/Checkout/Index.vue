@@ -8,9 +8,11 @@ import Button from "primevue/button";
 import Message from "primevue/message";
 import { useCartStore } from "@/stores/cart";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
+import { useToast } from "primevue";
 
 const props = defineProps({ errors: Object });
 const cart = useCartStore();
+const toast = useToast();
 
 // Zod Схема валидации
 const checkoutSchema = z.object({
@@ -48,8 +50,15 @@ const submit = () => {
     if (!validateForm()) return;
 
     form.post(route("checkout.store"), {
-        onSuccess: () => {
+        onSuccess: (res) => {
+            console.log(res);
             cart.clearCart(); // Очищаем корзину после успешного заказа
+            toast.add({
+                severity: "success",
+                summary: "Успех",
+                detail: res.props.flash.success || "Операция выполнена успешно",
+                life: 4000,
+            });
         },
         preserveScroll: true,
     });
@@ -66,8 +75,11 @@ const submit = () => {
                 severity="error"
                 class="mb-4"
             >
-                Проверьте правильность заполненных данных или наличие товаров в
-                корзине.
+                {{
+                    $page.props.errors.payment ??
+                    $page.props.errors.server ??
+                    "Проверьте правильность заполненных данных или наличие товаров в корзине."
+                }}
             </Message>
 
             <form

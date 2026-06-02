@@ -34,15 +34,12 @@ class CheckoutController extends Controller
         ]);
 
         $checkoutData = CheckoutData::fromValidated($validated, $request->user()->id);
-        // dd($checkoutData);
 
         try {
             $order = $createOrder->execute($checkoutData);
             session()->forget('cart');
 
-            return Inertia::render('Checkout/Success', [
-                'order' => new OrderResource($order),
-            ]);
+            return Redirect::route('home')->with('success', 'Заказ успешно создан! Номер заказа: ' . $order->order_number);
         } catch (\RuntimeException $e) {
             return Redirect::back()->withInput()->withErrors([
                 'payment' => $e->getMessage(),

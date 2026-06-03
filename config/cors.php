@@ -18,26 +18,30 @@ return [
     'allowed_origins' => [
         'https://cdn.botpress.cloud',
         'https://botpress.cloud',
+        'https://*.botpress.cloud',
     ],
 
     // 👇 Разрешённые источники по regex (для поддоменов Botpress)
     'allowed_origins_patterns' => [
         '/^https:\/\/.*\.botpress\.cloud$/',
         '/^https:\/\/.*\.bpcontent\.cloud$/',
+        '/^https:\/\/botpress\.cloud$/',
     ],
 
-    // 👇 Разрешённые заголовки
+    // ВАЖНО: добавляем ваш кастомный заголовок
     'allowed_headers' => [
         'Content-Type',
-        'X-Auth-Token',
-        'Origin',
         'Authorization',
         'X-Requested-With',
-        'X-Bot-Token',  // 👈 Ваш кастомный токен для бота
+        'Accept',
+        'Origin',
+        'X-Bot-Token',  // 👈 Обязательно!
     ],
 
-    // 👇 Заголовки, доступные для чтения браузером
-    'exposed_headers' => [],
+    'exposed_headers' => [
+        'X-Request-URL',
+        'X-Final-URL',
+    ],
 
     // 👇 Максимальное время кэширования preflight-запроса (в секундах)
     'max_age' => 60 * 60 * 24, // 24 часа

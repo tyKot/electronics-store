@@ -1,6 +1,6 @@
 <?php
 
-Route::prefix('bot')->group(function () {
+Route::prefix('bot')->middleware(['bot.token','throttle:bot-api'])->group(function () {
     Route::post('/order-status', [\App\Http\Controllers\Api\BotController::class, 'getOrderStatus']);
     Route::post('/search-products', [\App\Http\Controllers\Api\BotController::class, 'searchProducts']);
     Route::post('/get-product-details', [\App\Http\Controllers\Api\BotController::class, 'getProductDetails']);

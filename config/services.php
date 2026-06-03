@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'botpress' => [
+        'token' => env('BOTPRESS_API_TOKEN'),
+    ],
 ];
+

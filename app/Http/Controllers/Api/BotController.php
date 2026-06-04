@@ -10,6 +10,13 @@ use Illuminate\Http\Request;
 
 class BotController extends Controller
 {
+    public function debug(): JsonResponse
+    {
+        return response()->json([
+            'message' => 'Bot API is working',
+            'timestamp' => now()->toDateTimeString(),
+        ]);
+    }
     /**
      * Получить информацию о заказе по номеру
      */

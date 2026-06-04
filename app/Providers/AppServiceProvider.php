@@ -29,9 +29,9 @@ class AppServiceProvider extends ServiceProvider
         if ($this->app->environment('production')) {
             URL::forceScheme('https');
         }
-        RateLimiter::for('bot-api', function (Request $request) {
-            return Limit::perMinute(60)->by($request->ip());
-        });
+        // RateLimiter::for('bot-api', function (Request $request) {
+        //     return Limit::perMinute(60)->by($request->ip());
+        // });
         Vite::prefetch(concurrency: 3);
     }
 }

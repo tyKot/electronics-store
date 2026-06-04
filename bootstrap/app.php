@@ -27,7 +27,7 @@ return Application::configure(basePath: dirname(__DIR__))
             'role_or_permission' => \Spatie\Permission\Middleware\RoleOrPermissionMiddleware::class,
         ]);
         $middleware->alias([
-            $middleware->alias(['bot.token' => \App\Http\Middleware\VerfiyBotToken::class]),
+            'bot.token' => \App\Http\Middleware\VerfiyBotToken::class
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {

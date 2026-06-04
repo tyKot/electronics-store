@@ -34,5 +34,5 @@
 
 ---
 
-- [← Все категории]({{ route('bot.knowledge.index') }})
+- [← Все категории]({{ route('catalog.index') }})
 - [FAQ]({{ route('bot.knowledge.faq') }})

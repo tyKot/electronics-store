@@ -438,8 +438,7 @@ const removeFromFavorites = (productId) => {
                                                                             'products.show',
                                                                             slotProps
                                                                                 .data
-                                                                                .product
-                                                                                .id,
+                                                                                .slug,
                                                                         ),
                                                                     )
                                                                 "

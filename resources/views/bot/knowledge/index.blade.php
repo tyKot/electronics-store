@@ -14,7 +14,7 @@
 ### {{ $category->name }}
 
 - **Количество товаров:** {{ $category->products_count }}
-- **Ссылка на категорию:** {{ route('bot.knowledge.category', $category->slug) }}
+- **Ссылка на категорию:** {{ route('catalog.index', $category->id) }}
 @if($category->description)
 - **Описание:** {{ $category->description }}
 @endif
@@ -36,7 +36,7 @@
 @if($product->short_description)
 - **Описание:** {{ $product->short_description }}
 @endif
-- **Подробнее:** {{ route('bot.knowledge.product', $product->slug) }}
+- **Подробнее:** {{ route('product.show', $product->slug) }}
 
 @endforeach
 ---

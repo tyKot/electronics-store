@@ -12,6 +12,7 @@ class OrderItemResource extends JsonResource
         return [
             'id' => $this->id,
             'quantity' => $this->quantity,
+            'slug' => $this->product->slug,
             'price' => (float) $this->price_at_moment,
             'subtotal' => (float) ($this->price_at_moment * $this->quantity),
             'product' => [

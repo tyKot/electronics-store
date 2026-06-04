@@ -1,13 +1,13 @@
 <script setup>
 import { useDebounceFn } from "@vueuse/core";
 import { Link, router, usePage } from "@inertiajs/vue3";
-import { ref, watch, computed } from "vue";
+import { ref, watch, computed, onMounted } from "vue";
 import Button from "primevue/button";
 import Tag from "primevue/tag";
 import Paginator from "primevue/paginator";
 import InputText from "primevue/inputtext";
-import InputNumber from "primevue/inputnumber"; // Добавлено для цены
-import Checkbox from "primevue/checkbox"; // Добавлено для меток
+import InputNumber from "primevue/inputnumber";
+import Checkbox from "primevue/checkbox";
 import Select from "primevue/select";
 import { useCartStore } from "@/stores/cart";
 import { useFavoritesStore } from "@/stores/favorites";
@@ -20,12 +20,12 @@ const props = defineProps({
     products: Object,
     filters: Object,
     brands: Array,
+    categories: Array, // 👈 НОВОЕ: список категорий
     auth: Object,
 });
 
 const favorites = useFavoritesStore();
 
-// При смене страницы каталога проверяем статусы избранных
 watch(
     () => props.products.data,
     (newProducts) => {
@@ -40,6 +40,12 @@ watch(
 const cart = useCartStore();
 const toast = useToast();
 
+const filtersExpanded = ref(true);
+
+if (typeof window !== "undefined" && window.innerWidth < 768) {
+    filtersExpanded.value = false;
+}
+
 // --- Конфигурация фильтров ---
 const sortOptions = [
     { label: "По популярности", value: "-created_at" },
@@ -48,12 +54,18 @@ const sortOptions = [
     { label: "По названию", value: "name" },
 ];
 
+// 👇 Читаем категорию из URL: поддерживаем оба варианта
+// /catalog?category=smartphones (простой параметр)
+// /catalog?filter[category]=smartphones (через Spatie)
+const initialCategory =
+    props.filters.category || props.filters.filter?.category || null;
+
 // Состояние фильтров
 const selectedSort = ref(props.filters.sort || "-created_at");
 const selectedBrand = ref(props.filters.brand || null);
+const selectedCategory = ref(initialCategory); // 👈 НОВОЕ
 const searchQuery = ref(props.filters.search || "");
 
-// Новые фильтры
 const priceRange = ref({
     min: props.filters.filter?.price_min ?? null,
     max: props.filters.filter?.price_max ?? null,
@@ -66,32 +78,37 @@ const availableTags = [
     { name: "Со скидкой", value: "discount" },
 ];
 
-// --- Логика применения фильтров ---
-// Используем debounce-подобную логику через watch для поиска и цены,
-// но для простоты в Inertia часто используют ручное применение или отдельный хук.
-// Здесь оставим автоматический watch, но для цены лучше добавить кнопку "Применить"
-// или использовать useDebounceFn из VueUse (который у вас есть в стеке!)
+// 👇 Счётчик активных фильтров (с категорией)
+const activeFiltersCount = computed(() => {
+    let count = 0;
+    if (selectedBrand.value) count++;
+    if (selectedCategory.value) count++; // 👈 НОВОЕ
+    if (searchQuery.value) count++;
+    if (priceRange.value.min || priceRange.value.max) count++;
+    count += tagsFilter.value.length;
+    return count;
+});
 
+// --- Применение фильтров ---
 const applyFilters = () => {
     router.get(
         route("catalog.index"),
         {
             sort: selectedSort.value,
             "filter[brand]": selectedBrand.value,
+            "filter[category_id]": selectedCategory.value, // 👈 НОВОЕ
             "filter[name]": searchQuery.value,
             "filter[price_min]": priceRange.value.min,
             "filter[price_max]": priceRange.value.max,
             "filter[tags]": tagsFilter.value.length ? tagsFilter.value : null,
-            page: 1, // Всегда сбрасываем на 1 страницу при смене фильтров
+            page: 1,
         },
         { preserveState: true, replace: true },
     );
 };
 
-// Мгновенная реакция для селектов и чекбоксов
-watch([selectedSort, selectedBrand, tagsFilter], applyFilters);
+watch([selectedSort, selectedBrand, selectedCategory, tagsFilter], applyFilters); // 👈 добавили selectedCategory
 
-// Debounce для текстового поиска и цены (чтобы не спамить запросами при вводе)
 const debouncedApply = useDebounceFn(applyFilters, 400);
 watch([searchQuery, priceRange], debouncedApply, { deep: true });
 
@@ -141,36 +158,32 @@ const onPageChange = (event) => {
     );
 };
 
+// 👇 Обновлённая проверка активных фильтров
 const hasActiveFilters = computed(
     () =>
         selectedBrand.value ||
+        selectedCategory.value || // 👈 НОВОЕ
         searchQuery.value ||
         priceRange.value.min ||
         priceRange.value.max ||
         tagsFilter.value.length > 0,
 );
 
+// 👇 Получаем название категории по slug
+const getCategoryName = (id) => {
+    if (!id) return null;
+    const category = props.categories?.find((c) => c.id === id);
+    return category?.name || id;
+};
+
+// 👇 Обновлённая очистка фильтров
 const clearFilters = () => {
     selectedBrand.value = null;
+    selectedCategory.value = null; // 👈 НОВОЕ
     searchQuery.value = "";
     priceRange.value = { min: null, max: null };
     tagsFilter.value = [];
-    // applyFilters вызовется автоматически через watch
 };
-
-// watch(
-//     () => page.props.flash.success,
-//     (success) => {
-//         if (!success) {
-//             toast.add({
-//                 severity: "success",
-//                 summary: "Успех",
-//                 detail: page.props.flash.success || "Операция выполнена успешно",
-//                 life: 4000,
-//             });
-//         }
-//     },
-// );
 </script>
 
 <template>
@@ -207,153 +220,50 @@ const clearFilters = () => {
         </div>
 
         <div class="container mx-auto px-6 py-10">
-            <!-- Панель фильтров и поиска -->
+            <!-- STICKY-ПАНЕЛЬ -->
             <div
-                class="sticky top-20 z-40 bg-slate-50/95 backdrop-blur-md -mx-6 px-6 py-4 mb-8 border-b border-slate-200 shadow-sm transition-all duration-300"
+                class="sticky top-[80px] z-40 bg-slate-50/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-300"
+                style="
+                    margin-left: calc(-1 * var(--container-padding, 1.5rem));
+                    margin-right: calc(-1 * var(--container-padding, 1.5rem));
+                    padding-left: var(--container-padding, 1.5rem);
+                    padding-right: var(--container-padding, 1.5rem);
+                "
             >
-                <div class="flex flex-wrap items-center gap-4 mb-4">
-                    <div class="flex-1 min-w-[250px] relative">
-                        <i
-                            class="pi pi-search absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"
-                        ></i>
-                        <InputText
-                            v-model="searchQuery"
-                            placeholder="Поиск по каталогу..."
-                            class="w-full"
-                            style="padding-left: 40px"
-                        />
-                    </div>
-                    <Select
-                        v-model="selectedBrand"
-                        :options="brands"
-                        optionLabel="name"
-                        optionValue="slug"
-                        placeholder="Все бренды"
-                        class="w-full md:w-64"
-                        showClear
-                    />
-                    <Select
-                        v-model="selectedSort"
-                        :options="sortOptions"
-                        optionLabel="label"
-                        optionValue="value"
-                        class="w-full md:w-64"
-                    />
-                </div>
-
-                <div
-                    class="flex flex-col md:flex-row md:items-center justify-between gap-6 pt-4 border-t border-slate-200/60"
-                >
-                    <div class="flex items-center gap-3">
-                        <span
-                            class="text-sm font-medium text-slate-700 whitespace-nowrap"
-                            >Цена, ₽:</span
+                <!-- Верхний ряд -->
+                <div class="flex items-center justify-between gap-3 py-3">
+                    <div class="flex items-center gap-3 flex-1 min-w-0">
+                        <h2
+                            class="text-base sm:text-xl font-bold text-slate-800 whitespace-nowrap"
                         >
-                        <div class="flex items-center gap-2">
-                            <InputNumber
-                                v-model="priceRange.min"
-                                placeholder="От"
-                                :min="0"
-                                :step="1000"
-                                class="w-28"
-                                inputClass="w-full"
-                            />
-                            <span class="text-slate-400">–</span>
-                            <InputNumber
-                                v-model="priceRange.max"
-                                placeholder="До"
-                                :min="0"
-                                :step="1000"
-                                class="w-28"
-                                inputClass="w-full"
-                            />
-                        </div>
-                    </div>
+                            Найдено:
+                            <span class="text-blue-600">{{
+                                products.meta.total
+                            }}</span>
+                        </h2>
 
-                    <div class="flex flex-wrap items-center gap-4">
-                        <div
-                            v-for="tag in availableTags"
-                            :key="tag.value"
-                            class="flex items-center gap-2 cursor-pointer select-none"
+                        <button
+                            @click="filtersExpanded = !filtersExpanded"
+                            class="flex items-center gap-2 px-3 py-1.5 bg-white border border-slate-300 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors"
                         >
-                            <Checkbox
-                                v-model="tagsFilter"
-                                :inputId="`tag-${tag.value}`"
-                                :value="tag.value"
-                            />
-                            <label
-                                :for="`tag-${tag.value}`"
-                                class="text-sm text-slate-700 cursor-pointer"
-                                >{{ tag.name }}</label
+                            <i class="pi pi-filter text-sm"></i>
+                            <span>Фильтры</span>
+                            <i
+                                class="pi text-xs transition-transform duration-200"
+                                :class="
+                                    filtersExpanded
+                                        ? 'pi-chevron-up'
+                                        : 'pi-chevron-down'
+                                "
+                            ></i>
+                            <span
+                                v-if="hasActiveFilters"
+                                class="ml-1 px-1.5 py-0.5 bg-blue-600 text-white text-xs rounded-full"
                             >
-                        </div>
+                                {{ activeFiltersCount }}
+                            </span>
+                        </button>
                     </div>
-
-                    <Button
-                        v-if="hasActiveFilters"
-                        @click="clearFilters"
-                        label="Сбросить"
-                        icon="pi pi-times"
-                        severity="secondary"
-                        outlined
-                        class="shrink-0 ml-auto md:ml-0"
-                    />
-                </div>
-
-                <!-- Активные фильтры (чипсы) -->
-                <div v-if="hasActiveFilters" class="flex flex-wrap gap-2 mt-4">
-                    <Tag
-                        v-if="selectedBrand"
-                        :value="
-                            brands.find((b) => b.slug === selectedBrand)?.name
-                        "
-                        severity="info"
-                        removable
-                        @remove="selectedBrand = null"
-                    />
-                    <Tag
-                        v-if="searchQuery"
-                        :value="`«${searchQuery}»`"
-                        severity="info"
-                        removable
-                        @remove="searchQuery = ''"
-                    />
-                    <Tag
-                        v-if="priceRange.min || priceRange.max"
-                        :value="`${priceRange.min || '0'} – ${priceRange.max || '∞'} ₽`"
-                        severity="info"
-                        removable
-                        @remove="priceRange = { min: null, max: null }"
-                    />
-                    <Tag
-                        v-for="tagVal in tagsFilter"
-                        :key="tagVal"
-                        :value="
-                            availableTags.find((t) => t.value === tagVal)?.name
-                        "
-                        severity="info"
-                        removable
-                        @remove="
-                            tagsFilter = tagsFilter.filter((t) => t !== tagVal)
-                        "
-                    />
-                </div>
-            </div>
-
-            <!-- STICKY ПАГИНАЦИЯ И ЗАГОЛОВОК -->
-            <!-- top-20 = 5rem (80px). Подстройте под высоту вашего Navbar в AuthenticatedLayout -->
-            <div
-                class="sticky top-[235px] z-30 bg-slate-50/95 backdrop-blur-sm -mx-6 px-6 py-3 mb-6 border-b border-slate-200/80 transition-shadow duration-300 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]"
-            >
-                <div
-                    class="flex flex-col sm:flex-row items-center justify-between gap-4 max-w-[100%]"
-                >
-                    <h2 class="text-xl font-bold text-slate-800">
-                        Найдено:
-                        <span class="text-blue-600">{{
-                            products.meta.total
-                        }}</span>
-                    </h2>
 
                     <Paginator
                         v-if="products.meta.last_page > 1"
@@ -364,24 +274,227 @@ const clearFilters = () => {
                             products.meta.per_page
                         "
                         @page="onPageChange"
-                        template="PrevPageLink PageLinks NextPageLink"
-                        class="compact-paginator"
+                        :template="
+                            products.meta.last_page > 5
+                                ? 'PrevPageLink CurrentPageReport NextPageLink'
+                                : 'PrevPageLink PageLinks NextPageLink'
+                        "
+                        currentPageReportTemplate="{currentPage} из {totalPages}"
+                        class="compact-paginator shrink-0"
                     />
                 </div>
+
+                <!-- СВОРАЧИВАЕМАЯ ПАНЕЛЬ ФИЛЬТРОВ -->
+                <Transition
+                    enter-active-class="transition-all duration-300 ease-out"
+                    enter-from-class="opacity-0 max-h-0"
+                    enter-to-class="opacity-100 max-h-[800px]"
+                    leave-active-class="transition-all duration-200 ease-in"
+                    leave-from-class="opacity-100 max-h-[800px]"
+                    leave-to-class="opacity-0 max-h-0"
+                >
+                    <div
+                        v-show="filtersExpanded"
+                        class="overflow-hidden border-t border-slate-200/60"
+                    >
+                        <div class="py-4 space-y-4">
+                            <!-- 👇 Ряд 1: Поиск + Категория + Бренд + Сортировка -->
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1fr_auto_auto_auto] gap-3"
+                            >
+                                <!-- Поиск -->
+                                <div
+                                    class="relative sm:col-span-2 lg:col-span-1"
+                                >
+                                    <i
+                                        class="pi pi-search absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm"
+                                    ></i>
+                                    <InputText
+                                        v-model="searchQuery"
+                                        placeholder="Поиск по каталогу..."
+                                        class="w-full !pl-9 !py-2"
+                                    />
+                                </div>
+
+                                <!-- 👇 НОВОЕ: Категория -->
+                                <Select
+                                    v-model="selectedCategory"
+                                    :options="categories"
+                                    optionLabel="name"
+                                    optionValue="id"
+                                    placeholder="Все категории"
+                                    class="w-full sm:w-auto sm:min-w-[180px]"
+                                    showClear
+                                />
+
+                                <!-- Бренд -->
+                                <Select
+                                    v-model="selectedBrand"
+                                    :options="brands"
+                                    optionLabel="name"
+                                    optionValue="slug"
+                                    placeholder="Все бренды"
+                                    class="w-full sm:w-auto sm:min-w-[180px]"
+                                    showClear
+                                />
+
+                                <!-- Сортировка -->
+                                <Select
+                                    v-model="selectedSort"
+                                    :options="sortOptions"
+                                    optionLabel="label"
+                                    optionValue="value"
+                                    placeholder="Сортировка"
+                                    class="w-full sm:w-auto sm:min-w-[180px]"
+                                />
+                            </div>
+
+                            <!-- Ряд 2: Цена + Теги + Кнопка сброса (без изменений) -->
+                            <div
+                                class="flex flex-col lg:flex-row lg:items-center gap-4"
+                            >
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    <span
+                                        class="text-sm font-medium text-slate-700 whitespace-nowrap"
+                                    >
+                                        Цена, ₽:
+                                    </span>
+                                    <div
+                                        class="flex items-center gap-2 flex-1 min-w-[200px]"
+                                    >
+                                        <InputNumber
+                                            v-model="priceRange.min"
+                                            placeholder="От"
+                                            :min="0"
+                                            :step="1000"
+                                            class="flex-1 min-w-[80px]"
+                                            inputClass="w-full !py-2"
+                                        />
+                                        <span class="text-slate-400">–</span>
+                                        <InputNumber
+                                            v-model="priceRange.max"
+                                            placeholder="До"
+                                            :min="0"
+                                            :step="1000"
+                                            class="flex-1 min-w-[80px]"
+                                            inputClass="w-full !py-2"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="flex flex-wrap items-center gap-x-4 gap-y-2 flex-1"
+                                >
+                                    <div
+                                        v-for="tag in availableTags"
+                                        :key="tag.value"
+                                        class="flex items-center gap-2 cursor-pointer select-none"
+                                    >
+                                        <Checkbox
+                                            v-model="tagsFilter"
+                                            :inputId="`tag-${tag.value}`"
+                                            :value="tag.value"
+                                        />
+                                        <label
+                                            :for="`tag-${tag.value}`"
+                                            class="text-sm text-slate-700 cursor-pointer whitespace-nowrap"
+                                        >
+                                            {{ tag.name }}
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <Button
+                                    v-if="hasActiveFilters"
+                                    @click="clearFilters"
+                                    label="Сбросить"
+                                    icon="pi pi-times"
+                                    severity="secondary"
+                                    outlined
+                                    size="small"
+                                    class="shrink-0 self-start lg:self-auto"
+                                />
+                            </div>
+
+                            <!-- 👇 Ряд 3: Активные фильтры (с категорией) -->
+                            <div
+                                v-if="hasActiveFilters"
+                                class="flex flex-wrap gap-2 pt-3 border-t border-slate-200/60"
+                            >
+                                <span
+                                    class="text-xs text-slate-500 self-center mr-1"
+                                >
+                                    Активные:
+                                </span>
+
+                                <!-- 👇 НОВОЕ: Чипс категории -->
+                                <Tag
+                                    v-if="selectedCategory"
+                                    :value="getCategoryName(selectedCategory)"
+                                    severity="info"
+                                    removable
+                                    @remove="selectedCategory = null"
+                                />
+
+                                <Tag
+                                    v-if="selectedBrand"
+                                    :value="
+                                        brands.find(
+                                            (b) => b.slug === selectedBrand,
+                                        )?.name
+                                    "
+                                    severity="info"
+                                    removable
+                                    @remove="selectedBrand = null"
+                                />
+                                <Tag
+                                    v-if="searchQuery"
+                                    :value="`«${searchQuery}»`"
+                                    severity="info"
+                                    removable
+                                    @remove="searchQuery = ''"
+                                />
+                                <Tag
+                                    v-if="priceRange.min || priceRange.max"
+                                    :value="`${priceRange.min || '0'} – ${priceRange.max || '∞'} ₽`"
+                                    severity="info"
+                                    removable
+                                    @remove="
+                                        priceRange = { min: null, max: null }
+                                    "
+                                />
+                                <Tag
+                                    v-for="tagVal in tagsFilter"
+                                    :key="tagVal"
+                                    :value="
+                                        availableTags.find(
+                                            (t) => t.value === tagVal,
+                                        )?.name
+                                    "
+                                    severity="info"
+                                    removable
+                                    @remove="
+                                        tagsFilter = tagsFilter.filter(
+                                            (t) => t !== tagVal,
+                                        )
+                                    "
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </Transition>
             </div>
 
-            <!-- Сетка товаров -->
+            <!-- Сетка товаров (без изменений) -->
             <div
                 v-if="products.data.length > 0"
-                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pb-20"
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-3 pb-20"
             >
-                <!-- Карточка товара (без изменений в структуре, только сокращена для примера) -->
                 <div
                     v-for="product in products.data"
                     :key="product.id"
                     class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl border border-slate-200 transition-all duration-300 hover:-translate-y-1 flex flex-col"
                 >
-                    <!-- ... (оставьте ваш существующий код карточки без изменений) ... -->
                     <div
                         class="relative aspect-square overflow-hidden bg-slate-100"
                     >
@@ -468,7 +581,7 @@ const clearFilters = () => {
                 </div>
             </div>
 
-            <!-- Пустое состояние -->
+            <!-- Пустое состояние (без изменений) -->
             <div
                 v-else
                 class="bg-white rounded-2xl p-16 text-center shadow-sm border border-slate-200"
@@ -495,7 +608,6 @@ const clearFilters = () => {
 </template>
 
 <style scoped>
-/* Анимации карточек */
 .group {
     animation: fadeInUp 0.5s ease-out both;
 }
@@ -521,12 +633,43 @@ const clearFilters = () => {
     overflow: hidden;
 }
 
-/* Компактный стиль для sticky-пагинатора */
-:deep(.compact-paginator .p-paginator-pages) {
-    gap: 0.25rem;
+:deep(.compact-paginator) {
+    padding: 0 !important;
+    background: transparent !important;
+    border: none !important;
 }
-:deep(.compact-paginator button) {
-    min-width: 2.5rem;
-    height: 2.5rem;
+
+:deep(.compact-paginator .p-paginator-pages) {
+    gap: 2px;
+}
+
+:deep(.compact-paginator .p-paginator-pages button) {
+    min-width: 32px;
+    height: 32px;
+    font-size: 0.875rem;
+}
+
+:deep(.compact-paginator .p-paginator-current) {
+    font-size: 0.875rem;
+    color: #64748b;
+}
+
+@media (max-width: 640px) {
+    :deep(.compact-paginator .p-paginator-pages button) {
+        min-width: 28px;
+        height: 28px;
+        font-size: 0.75rem;
+    }
+}
+
+.tag-enter-active,
+.tag-leave-active {
+    transition: all 0.2s ease;
+}
+
+.tag-enter-from,
+.tag-leave-to {
+    opacity: 0;
+    transform: scale(0.9);
 }
 </style>

@@ -59,4 +59,4 @@
 
 ---
 
-[← Вернуться в каталог]({{ route('bot.knowledge.index') }})
+[← Вернуться в каталог]({{ route('catalog.index') }})

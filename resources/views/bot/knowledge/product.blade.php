@@ -45,6 +45,6 @@
 
 ---
 
-- [← Вернуться в категорию]({{ route('bot.knowledge.category', $product->category->slug ?? 'all') }})
-- [Все категории]({{ route('bot.knowledge.index') }})
+- [← Вернуться в категорию]({{ route('catalog.index', $product->category->id) }})
+- [Все категории]({{ route('catalog.index') }})
 - [FAQ]({{ route('bot.knowledge.faq') }})

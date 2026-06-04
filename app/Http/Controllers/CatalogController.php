@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Resources\ProductResource;
 use App\Models\Brand;
+use App\Models\Category;
 use App\Models\Product;
 use App\QueryFilters\TagsFilter;
 use Illuminate\Http\Request;
@@ -20,6 +21,7 @@ class CatalogController extends Controller
         $products = QueryBuilder::for(Product::class)
             ->allowedFilters(
                 AllowedFilter::exact('brand'),
+                // AllowedFilter::exact('category'), // 👈 НОВОЕ: фильтр по slug категории
                 AllowedFilter::exact('category_id'),
                 AllowedFilter::custom('tags', new TagsFilter()), // Если используете кастомный фильтр
                 AllowedFilter::scope('price_min'), // Или через scope/where
@@ -44,9 +46,18 @@ class CatalogController extends Controller
         // Получаем список брендов для фильтра
         $brands = Brand::orderBy('name')->get(['id', 'name', 'slug']);
 
+        $categories = Category::where('is_active', true)
+            // 👇 Фильтруем категории, у которых есть хотя бы один активный товар
+            ->whereHas('products', fn($q) => $q->where('is_active', true))
+            // 👇 Считаем количество активных товаров (алиас products_count)
+            ->withCount(['products' => fn($q) => $q->where('is_active', true)])
+            ->orderBy('name')
+            ->get(['id', 'name', 'slug']);
+
         return Inertia::render('Catalog/Index', [
             'products' => ProductResource::collection($products),
             'brands' => $brands,
+            'categories' => $categories,
             'filters' => $request->only(['sort', 'filter', 'page']),
         ]);
     }

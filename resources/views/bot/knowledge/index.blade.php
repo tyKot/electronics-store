@@ -1,51 +1,58 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="Интернет-магазин электроники: смартфоны, ноутбуки, наушники, планшеты, умные часы">
-    <title>Каталог электроники - Internet Store</title>
-</head>
-<body>
-    <h1>Интернет-магазин электроники</h1>
-    <p>Мы предлагаем более 10 000 товаров от ведущих мировых брендов: Apple, Samsung, Xiaomi, Sony, Huawei.</p>
+@php
+    // Отключаем layout, чтобы отдавать чистый Markdown
+    header('Content-Type: text/markdown; charset=utf-8');
+@endphp
+# Интернет-магазин электроники
 
-    <h2>Категории товаров</h2>
-    <ul>
-        @foreach($categories as $category)
-            <li>
-                <a href="{{ route('bot.knowledge.category', $category->slug) }}">
-                    {{ $category->name }} ({{ $category->products_count }} товаров)
-                </a>
-                @if($category->description)
-                    <p>{{ $category->description }}</p>
-                @endif
-            </li>
-        @endforeach
-    </ul>
+Мы предлагаем более 10 000 товаров от ведущих мировых брендов: Apple, Samsung, Xiaomi, Sony, Huawei.
 
-    <h2>Популярные товары</h2>
-    @foreach($featuredProducts as $product)
-        <article>
-            <h3>
-                <a href="{{ route('bot.knowledge.product', $product->slug) }}">
-                    {{ $product->name }}
-                </a>
-            </h3>
-            <p><strong>Бренд:</strong> {{ $product->brand }}</p>
-            <p><strong>Цена:</strong> {{ number_format($product->price, 0, '.', ' ') }} ₽</p>
-            @if($product->old_price)
-                <p><strong>Старая цена:</strong> {{ number_format($product->old_price, 0, '.', ' ') }} ₽</p>
-            @endif
-            <p>{{ $product->short_description }}</p>
-            <p><strong>Наличие:</strong> {{ $product->stock > 0 ? 'В наличии' : 'Нет в наличии' }}</p>
-        </article>
-    @endforeach
+---
 
-    <h2>Полезные ссылки</h2>
-    <ul>
-        <li><a href="{{ route('bot.knowledge.faq') }}">Часто задаваемые вопросы</a></li>
-        <li><a href="/sitemap.xml">Карта сайта</a></li>
-    </ul>
-</body>
-</html>
+## Категории товаров
+
+@foreach($categories as $category)
+### {{ $category->name }}
+
+- **Количество товаров:** {{ $category->products_count }}
+- **Ссылка на категорию:** {{ route('bot.knowledge.category', $category->slug) }}
+@if($category->description)
+- **Описание:** {{ $category->description }}
+@endif
+
+@endforeach
+---
+
+## Популярные товары
+
+@foreach($featuredProducts as $product)
+### {{ $product->name }}
+
+- **Бренд:** {{ $product->brand }}
+- **Цена:** {{ number_format($product->price, 0, '.', ' ') }} ₽
+@if($product->old_price)
+- **Старая цена:** {{ number_format($product->old_price, 0, '.', ' ') }} ₽ (скидка {{ round((1 - $product->price / $product->old_price) * 100) }}%)
+@endif
+- **Наличие:** {{ $product->stock > 0 ? 'В наличии (' . $product->stock . ' шт.)' : 'Нет в наличии' }}
+@if($product->short_description)
+- **Описание:** {{ $product->short_description }}
+@endif
+- **Подробнее:** {{ route('bot.knowledge.product', $product->slug) }}
+
+@endforeach
+---
+
+## Полезные ссылки
+
+- [Часто задаваемые вопросы]({{ route('bot.knowledge.faq') }})
+- [Карта сайта]({{ url('/sitemap.xml') }})
+- [Главная страница]({{ url('/') }})
+
+---
+
+## О магазине
+
+- **Бренды:** Apple, Samsung, Xiaomi, Sony, Huawei
+- **Гарантия:** от 1 до 3 лет (официальная)
+- **Доставка:** по всей России (Москва, Санкт-Петербург и регионы)
+- **Оплата:** картой, СБП, наличными, рассрочка 0-0-12
+- **Возврат:** 14 дней на товар надлежащего качества

@@ -1,56 +1,50 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="{{ $product->short_description }}">
-    <title>{{ $product->name }} - {{ $product->brand }}</title>
-</head>
-<body>
-    <article itemscope itemtype="https://schema.org/Product">
-        <h1 itemprop="name">{{ $product->name }}</h1>
+# {{ $product->name }}
 
-        <p><strong>Бренд:</strong> <span itemprop="brand">{{ $product->brand }}</span></p>
-        <p><strong>Категория:</strong> {{ $product->category->name ?? 'Электроника' }}</p>
-        <p><strong>Артикул:</strong> <span itemprop="sku">{{ $product->sku ?? $product->id }}</span></p>
+**Бренд:** {{ $product->brand }}
+**Категория:** {{ $product->category->name ?? 'Электроника' }}
+**Артикул:** {{ $product->sku ?? $product->id }}
 
-        @if($product->images)
-            @foreach($product->images as $image)
-                <img src="{{ $image }}" alt="{{ $product->name }}" itemprop="image">
-            @endforeach
-        @endif
+---
 
-        <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-            <p><strong>Цена:</strong>
-                <span itemprop="price" content="{{ $product->price }}">
-                    {{ number_format($product->price, 0, '.', ' ') }} ₽
-                </span>
-                <meta itemprop="priceCurrency" content="RUB">
-                <meta itemprop="availability" content="{{ $product->stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock' }}">
-            </p>
-        </div>
+## Цена и наличие
 
-        <h2>Описание</h2>
-        <div itemprop="description">
-            {!! nl2br(e($product->description)) !!}
-        </div>
+- **Цена:** {{ number_format($product->price, 0, '.', ' ') }} ₽
+@if($product->old_price)
+- **Старая цена:** {{ number_format($product->old_price, 0, '.', ' ') }} ₽
+- **Скидка:** {{ round((1 - $product->price / $product->old_price) * 100) }}%
+@endif
+- **Наличие:** {{ $product->stock > 0 ? 'В наличии (' . $product->stock . ' шт.)' : 'Нет в наличии' }}
 
-        @if($product->specs)
-            <h2>Характеристики</h2>
-            <table>
-                @foreach($product->specs as $key => $value)
-                    <tr>
-                        <th>{{ $key }}</th>
-                        <td>{{ $value }}</td>
-                    </tr>
-                @endforeach
-            </table>
-        @endif
+---
 
-        <h2>Наличие</h2>
-        <p>{{ $product->stock > 0 ? "В наличии: {$product->stock} шт." : 'Нет в наличии' }}</p>
-    </article>
+## Описание
 
-    <p><a href="{{ route('bot.knowledge.index') }}">← Вернуться в каталог</a></p>
-</body>
-</html>
+{{ $product->description ?: $product->short_description ?: 'Описание будет добавлено позже.' }}
+
+@if($product->specs)
+---
+
+## Характеристики
+
+| Параметр | Значение |
+|----------|----------|
+@foreach($product->specs as $key => $value)
+| {{ $key }} | {{ $value }} |
+@endforeach
+@endif
+
+@if($product->images)
+---
+
+## Изображения
+
+@foreach($product->images as $image)
+- {{ $image }}
+@endforeach
+@endif
+
+---
+
+- [← Вернуться в категорию]({{ route('bot.knowledge.category', $product->category->slug ?? 'all') }})
+- [Все категории]({{ route('bot.knowledge.index') }})
+- [FAQ]({{ route('bot.knowledge.faq') }})

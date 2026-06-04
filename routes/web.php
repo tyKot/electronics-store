@@ -1,15 +1,14 @@
 <?php
 
-use App\Enums\OrderStatus;
 use App\Http\Controllers\Admin\ProductController as AdminProductController;
 use App\Http\Controllers\Api\FavoriteController;
+use App\Http\Controllers\BotKnowledgeController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
-use App\Models\Order;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/dashboard', function () {
@@ -55,5 +54,14 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'index'])->name('profile.index');
     Route::put('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::put('/profile/password', [ProfileController::class, 'updatePassword'])->name('profile.password');
+});
+
+
+// Публичные страницы для краулеров и SEO
+Route::prefix('knowledge')->name('bot.knowledge.')->group(function () {
+    Route::get('/', [BotKnowledgeController::class, 'index'])->name('index');
+    Route::get('/category/{slug}', [BotKnowledgeController::class, 'category'])->name('category');
+    Route::get('/product/{slug}', [BotKnowledgeController::class, 'product'])->name('product');
+    Route::get('/faq', [BotKnowledgeController::class, 'faq'])->name('faq');
 });
 require __DIR__ . '/auth.php'; // Laravel Breeze

@@ -1,2 +1,22 @@
 User-agent: *
-Disallow:
+Allow: /
+
+# Разрешаем Botpress явно
+User-agent: BotpressBot
+Allow: /
+
+# Разрешаем другим известным ботам
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Запрещаем доступ к служебным разделам
+Disallow: /admin/
+Disallow: /api/
+Disallow: /checkout
+Disallow: /profile
+
+# Указываем карту сайта
+Sitemap: https://electronics-store.onrender.com/sitemap.xml

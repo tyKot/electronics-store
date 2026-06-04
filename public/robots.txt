@@ -19,4 +19,4 @@ Disallow: /checkout
 Disallow: /profile
 
 # Указываем карту сайта
-Sitemap: https://electronics-store.onrender.com/sitemap.xml
+Sitemap: https://electronics-store-50f9.onrender.com/sitemap.xml

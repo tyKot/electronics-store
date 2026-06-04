@@ -36,7 +36,7 @@
 @if($product->short_description)
 - **Описание:** {{ $product->short_description }}
 @endif
-- **Подробнее:** {{ route('product.show', $product->slug) }}
+- **Подробнее:** {{ route('products.show', $product->slug) }}
 
 @endforeach
 ---

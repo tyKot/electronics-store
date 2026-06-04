@@ -28,7 +28,7 @@
   - {{ $key }}: {{ $value }}
 @endforeach
 @endif
-- **Подробнее:** {{ route('bot.knowledge.product', $product->slug) }}
+- **Подробнее:** {{ route('product.show', $product->slug) }}
 
 @endforeach
 

@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     <url>
-    <loc>http://localhost</loc>
-    <lastmod>2026-06-04T17:29:08+00:00</lastmod>
+    <loc>https://electronics-store-50f9.onrender.com</loc>
+    <lastmod>2026-06-04T17:36:45+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
             </url>
     <url>
-    <loc>http://localhost/catalog</loc>
-    <lastmod>2026-06-04T17:29:08+00:00</lastmod>
+    <loc>https://electronics-store-50f9.onrender.com/catalog</loc>
+    <lastmod>2026-06-04T17:36:45+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
             </url>
     <url>
-    <loc>http://localhost/categories</loc>
-    <lastmod>2026-06-04T17:29:08+00:00</lastmod>
+    <loc>https://electronics-store-50f9.onrender.com/categories</loc>
+    <lastmod>2026-06-04T17:36:45+00:00</lastmod>
     <priority>0.8</priority>
             </url>
     <url>
-    <loc>http://localhost/catalog?filter[category]=smartphones</loc>
+    <loc>https://electronics-store-50f9.onrender.com/catalog?filter[category]=smartphones</loc>
     <lastmod>2026-05-31T15:30:48+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
             </url>
     <url>
-    <loc>http://localhost/catalog?filter[category]=laptops</loc>
+    <loc>https://electronics-store-50f9.onrender.com/catalog?filter[category]=laptops</loc>
     <lastmod>2026-05-31T15:30:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
             </url>
     <url>
-    <loc>http://localhost/catalog?filter[category]=tablets</loc>
+    <loc>https://electronics-store-50f9.onrender.com/catalog?filter[category]=tablets</loc>
     <lastmod>2026-05-31T15:30:50+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
             </url>
     <url>
-    <loc>http://localhost/catalog?filter[category]=headphones</loc>
+    <loc>https://electronics-store-50f9.onrender.com/catalog?filter[category]=headphones</loc>
     <lastmod>2026-05-31T15:30:51+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
             </url>
     <url>
-    <loc>http://localhost/catalog?filter[category]=smartwatches</loc>
+    <loc>https://electronics-store-50f9.onrender.com/catalog?filter[category]=smartwatches</loc>
     <lastmod>2026-05-31T15:30:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
             </url>
     <url>
-    <loc>http://localhost/products/xiaomi-galaxy-s24-ultra-white-f7798a01-aaa8-45d0-89b2-5f609823042e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-galaxy-s24-ultra-white-f7798a01-aaa8-45d0-89b2-5f609823042e</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -62,7 +62,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-galaxy-s24-ultra-white-8181def0-6223-4123-907b-4da5ccb0beaa</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-galaxy-s24-ultra-white-8181def0-6223-4123-907b-4da5ccb0beaa</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +76,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-s24-ultra-white-8f3f88dd-b2a9-45d4-b07a-42a9ee9db8de</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-s24-ultra-white-8f3f88dd-b2a9-45d4-b07a-42a9ee9db8de</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -90,7 +90,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-iphone-15-pro-max-silver-2c08984a-1ec8-4bd5-a698-8fc2c8cd72cd</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-iphone-15-pro-max-silver-2c08984a-1ec8-4bd5-a698-8fc2c8cd72cd</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -104,7 +104,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-iphone-15-pro-max-silver-509d57b3-a3fa-4fc7-9c1d-0fb8c17f4638</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-iphone-15-pro-max-silver-509d57b3-a3fa-4fc7-9c1d-0fb8c17f4638</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -118,7 +118,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/macbook-pro-14-m3</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/macbook-pro-14-m3</loc>
     <lastmod>2026-06-02T16:58:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -128,7 +128,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/iphone-15-pro</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/iphone-15-pro</loc>
     <lastmod>2026-06-02T16:59:42+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -142,7 +142,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-iphone-15-pro-max-white-3d2c0736-957d-4f57-8ef9-9b35cec94702</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-iphone-15-pro-max-white-3d2c0736-957d-4f57-8ef9-9b35cec94702</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -156,7 +156,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-pixel-8-pro-midnight-f509d14e-cdb3-4bdb-8fbf-89cd34ef7a8a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-pixel-8-pro-midnight-f509d14e-cdb3-4bdb-8fbf-89cd34ef7a8a</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -170,7 +170,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-pixel-8-pro-starlight-e68f639a-df74-4ec0-8ecd-1753a44834ba</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-pixel-8-pro-starlight-e68f639a-df74-4ec0-8ecd-1753a44834ba</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -184,7 +184,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-xiaomi-14-ultra-silver-a4ec8837-03a6-4123-afd6-22192de12ce5</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-xiaomi-14-ultra-silver-a4ec8837-03a6-4123-afd6-22192de12ce5</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -198,7 +198,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-xiaomi-14-ultra-titanium-4c06f33f-a36d-4164-993c-ab9e2ac53085</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-xiaomi-14-ultra-titanium-4c06f33f-a36d-4164-993c-ab9e2ac53085</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -212,7 +212,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-xiaomi-14-ultra-white-321ed54f-a43d-428e-8680-c2b9e1f430b0</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-xiaomi-14-ultra-white-321ed54f-a43d-428e-8680-c2b9e1f430b0</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -226,7 +226,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-buds2-pro-midnight-2e20148a-d4b3-4d4c-a414-9fb6ac8c556d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-buds2-pro-midnight-2e20148a-d4b3-4d4c-a414-9fb6ac8c556d</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -240,7 +240,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-oneplus-12-starlight-56832bdc-dc87-4fbe-abf1-62796acc8397</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-oneplus-12-starlight-56832bdc-dc87-4fbe-abf1-62796acc8397</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -254,7 +254,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-oneplus-12-silver-939e7d0c-05db-4085-a156-f45a2047edd9</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-oneplus-12-silver-939e7d0c-05db-4085-a156-f45a2047edd9</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -268,7 +268,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-oneplus-12-white-9208cfc7-e845-4ec5-a54f-45ccd4cc865e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-oneplus-12-white-9208cfc7-e845-4ec5-a54f-45ccd4cc865e</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -282,7 +282,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-nothing-phone-2-white-f157243a-7e6d-4261-93dc-54eca68b47bf</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-nothing-phone-2-white-f157243a-7e6d-4261-93dc-54eca68b47bf</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -296,7 +296,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-nothing-phone-2-black-c188fad7-3123-4d7b-9336-e9428fdb1a20</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-nothing-phone-2-black-c188fad7-3123-4d7b-9336-e9428fdb1a20</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -310,7 +310,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-macbook-pro-14-m3-white-dc61865a-b925-4664-bc74-32eec8f3c6db</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-macbook-pro-14-m3-white-dc61865a-b925-4664-bc74-32eec8f3c6db</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -324,7 +324,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-sony-xperia-1-v-silver-f10b1d48-fbf9-48aa-9a48-2375698c2e7e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-sony-xperia-1-v-silver-f10b1d48-fbf9-48aa-9a48-2375698c2e7e</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -338,7 +338,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sony-xperia-1-v-white-9286b401-a817-470b-b103-a61ef165f72c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sony-xperia-1-v-white-9286b401-a817-470b-b103-a61ef165f72c</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -352,7 +352,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sony-xperia-1-v-white-5babc0fb-e87d-4f4c-90be-efcb746bf009</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sony-xperia-1-v-white-5babc0fb-e87d-4f4c-90be-efcb746bf009</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -366,7 +366,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sony-xperia-1-v-silver-e0767136-38a6-4e26-8bc0-5a54621fa0fa</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sony-xperia-1-v-silver-e0767136-38a6-4e26-8bc0-5a54621fa0fa</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -380,7 +380,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-honor-magic6-pro-white-dd31c4b8-c167-4fbe-b481-35182c015753</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-honor-magic6-pro-white-dd31c4b8-c167-4fbe-b481-35182c015753</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -394,7 +394,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-honor-magic6-pro-silver-43af4935-3e3a-4cd7-8643-f944383427d5</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-honor-magic6-pro-silver-43af4935-3e3a-4cd7-8643-f944383427d5</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -408,7 +408,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-honor-magic6-pro-silver-c9031861-6e4b-4067-8b50-0ececb1c0403</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-honor-magic6-pro-silver-c9031861-6e4b-4067-8b50-0ececb1c0403</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -422,7 +422,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-macbook-pro-14-m3-midnight-cf0f4610-cd89-454a-b7c0-096ae3905b50</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-macbook-pro-14-m3-midnight-cf0f4610-cd89-454a-b7c0-096ae3905b50</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -436,7 +436,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-macbook-pro-14-m3-black-439fb4fd-c705-473e-b00f-29dfbdbf5273</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-macbook-pro-14-m3-black-439fb4fd-c705-473e-b00f-29dfbdbf5273</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -450,7 +450,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-macbook-pro-14-m3-midnight-89c62fc3-e06c-47c5-a538-8532259d5b48</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-macbook-pro-14-m3-midnight-89c62fc3-e06c-47c5-a538-8532259d5b48</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -464,7 +464,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-thinkpad-x1-carbon-midnight-e4f456aa-a367-416f-b5be-fde7df6854a0</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-thinkpad-x1-carbon-midnight-e4f456aa-a367-416f-b5be-fde7df6854a0</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -478,7 +478,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-thinkpad-x1-carbon-black-eb6dc2e8-abd1-4e5c-a181-8fd7e9cd6ca1</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-thinkpad-x1-carbon-black-eb6dc2e8-abd1-4e5c-a181-8fd7e9cd6ca1</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -492,7 +492,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-thinkpad-x1-carbon-white-1c3ab181-f852-423b-b38e-0da9792a1e07</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-thinkpad-x1-carbon-white-1c3ab181-f852-423b-b38e-0da9792a1e07</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -506,7 +506,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-rog-zephyrus-g14-silver-274b22c9-fffc-49ce-a9f0-9f173697ec92</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-rog-zephyrus-g14-silver-274b22c9-fffc-49ce-a9f0-9f173697ec92</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -520,7 +520,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-rog-zephyrus-g14-starlight-983b09fd-2066-40fc-8142-c29262d385c2</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-rog-zephyrus-g14-starlight-983b09fd-2066-40fc-8142-c29262d385c2</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -534,7 +534,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-rog-zephyrus-g14-midnight-d87f7d5d-c968-46cd-a4e3-e65d29d52c57</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-rog-zephyrus-g14-midnight-d87f7d5d-c968-46cd-a4e3-e65d29d52c57</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -548,7 +548,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-dell-xps-15-black-f3369596-366c-43ff-b380-4dcb079885c6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-dell-xps-15-black-f3369596-366c-43ff-b380-4dcb079885c6</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -562,7 +562,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-dell-xps-15-silver-ae50e519-de0d-480b-a67a-78d7ff62d49c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-dell-xps-15-silver-ae50e519-de0d-480b-a67a-78d7ff62d49c</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -576,7 +576,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-dell-xps-15-white-976a4eb4-cad6-4c69-b102-c4642b4cc481</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-dell-xps-15-white-976a4eb4-cad6-4c69-b102-c4642b4cc481</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -590,7 +590,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-dell-xps-15-midnight-8b441b12-1926-4da5-b6f2-40571cc538d1</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-dell-xps-15-midnight-8b441b12-1926-4da5-b6f2-40571cc538d1</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -604,7 +604,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-hp-spectre-x360-silver-7a64d418-e12a-4a0a-b4fc-43d7eff3d3af</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-hp-spectre-x360-silver-7a64d418-e12a-4a0a-b4fc-43d7eff3d3af</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -618,7 +618,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-hp-spectre-x360-silver-080a7cdd-fb39-4ed2-8abe-aec14a666a4c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-hp-spectre-x360-silver-080a7cdd-fb39-4ed2-8abe-aec14a666a4c</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -632,7 +632,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-hp-spectre-x360-silver-37c87ae1-c568-42da-9c54-57da968ba3d2</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-hp-spectre-x360-silver-37c87ae1-c568-42da-9c54-57da968ba3d2</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -646,7 +646,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-hp-spectre-x360-midnight-d9415334-a77f-4ae0-b306-d44d839f68ac</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-hp-spectre-x360-midnight-d9415334-a77f-4ae0-b306-d44d839f68ac</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -660,7 +660,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-asus-zenbook-14-silver-5acdb971-09b8-44ea-a7f6-3d8945c46d8a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-asus-zenbook-14-silver-5acdb971-09b8-44ea-a7f6-3d8945c46d8a</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -674,7 +674,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-asus-zenbook-14-silver-443cd878-d79a-4238-b336-dc4b2f41a161</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-asus-zenbook-14-silver-443cd878-d79a-4238-b336-dc4b2f41a161</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -688,7 +688,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-lenovo-ideapad-slim-5-silver-015bbaf2-9efa-46a8-a19a-20934e15bb06</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-lenovo-ideapad-slim-5-silver-015bbaf2-9efa-46a8-a19a-20934e15bb06</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -702,7 +702,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-ipad-air-m2-silver-41c7e466-6f6d-4444-a8eb-107249ae1066</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-ipad-air-m2-silver-41c7e466-6f6d-4444-a8eb-107249ae1066</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -716,7 +716,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-lenovo-ideapad-slim-5-white-03753ea9-5986-437d-9568-a67a58efa127</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-lenovo-ideapad-slim-5-white-03753ea9-5986-437d-9568-a67a58efa127</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -730,7 +730,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-lenovo-ideapad-slim-5-silver-dcf26d0d-c667-42aa-9988-d45171edfdc6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-lenovo-ideapad-slim-5-silver-dcf26d0d-c667-42aa-9988-d45171edfdc6</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -744,7 +744,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-lenovo-ideapad-slim-5-starlight-ab7bdfcf-2d4b-47ba-8b56-beec1fdb4563</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-lenovo-ideapad-slim-5-starlight-ab7bdfcf-2d4b-47ba-8b56-beec1fdb4563</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -758,7 +758,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-acer-swift-go-14-starlight-9011ba28-fdb7-45eb-abef-c2567b32d3c1</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-acer-swift-go-14-starlight-9011ba28-fdb7-45eb-abef-c2567b32d3c1</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -772,7 +772,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-acer-swift-go-14-starlight-aa8ca244-fdc6-41c3-a5ab-154827ea7543</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-acer-swift-go-14-starlight-aa8ca244-fdc6-41c3-a5ab-154827ea7543</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -786,7 +786,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-acer-swift-go-14-silver-0fbca4fc-36e0-4282-b69d-512380cf3045</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-acer-swift-go-14-silver-0fbca4fc-36e0-4282-b69d-512380cf3045</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -800,7 +800,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-airpods-pro-2-black-81a00aeb-69e1-44a5-a57f-ed346592067b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-airpods-pro-2-black-81a00aeb-69e1-44a5-a57f-ed346592067b</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -814,7 +814,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-airpods-pro-2-titanium-cefcf417-9493-4284-976e-c1011507cb59</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-airpods-pro-2-titanium-cefcf417-9493-4284-976e-c1011507cb59</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -828,7 +828,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-airpods-pro-2-white-0d789751-b128-4edf-aa33-a09db8c79911</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-airpods-pro-2-white-0d789751-b128-4edf-aa33-a09db8c79911</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -842,7 +842,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-wh-1000xm5-black-c66b3454-38dc-4783-8c29-c45bf01afd49</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-wh-1000xm5-black-c66b3454-38dc-4783-8c29-c45bf01afd49</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -856,7 +856,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-wh-1000xm5-midnight-c0141cce-dc29-4128-8c94-7fdf9286c980</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-wh-1000xm5-midnight-c0141cce-dc29-4128-8c94-7fdf9286c980</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -870,7 +870,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-wh-1000xm5-starlight-28bfdc8e-fab1-4d40-a07e-56566fcb2f65</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-wh-1000xm5-starlight-28bfdc8e-fab1-4d40-a07e-56566fcb2f65</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -884,7 +884,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-galaxy-buds2-pro-titanium-86c28a68-b65a-4eef-9fb5-06cc91deb1f0</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-galaxy-buds2-pro-titanium-86c28a68-b65a-4eef-9fb5-06cc91deb1f0</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -898,7 +898,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-buds2-pro-white-2b3367f7-7c2d-4dfe-a828-6dff065d8172</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-buds2-pro-white-2b3367f7-7c2d-4dfe-a828-6dff065d8172</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -912,7 +912,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-buds2-pro-silver-d8bc57c3-463f-4468-b382-5a6a91833ef4</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-buds2-pro-silver-d8bc57c3-463f-4468-b382-5a6a91833ef4</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -926,7 +926,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-momentum-tw-4-starlight-4609adf4-63cc-4372-be13-ccf34efa6733</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-momentum-tw-4-starlight-4609adf4-63cc-4372-be13-ccf34efa6733</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -940,7 +940,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-momentum-tw-4-black-97f62e7a-61bb-40d4-991a-e6a99401c031</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-momentum-tw-4-black-97f62e7a-61bb-40d4-991a-e6a99401c031</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -954,7 +954,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-momentum-tw-4-starlight-c6b72852-b839-4492-9023-0df0cc679191</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-momentum-tw-4-starlight-c6b72852-b839-4492-9023-0df0cc679191</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -968,7 +968,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-quietcomfort-ultra-silver-d40b39ff-5d65-47f5-b425-c4e2953ddac7</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-quietcomfort-ultra-silver-d40b39ff-5d65-47f5-b425-c4e2953ddac7</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -982,7 +982,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-quietcomfort-ultra-black-68f34b82-1bda-493c-8ab2-746938b54527</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-quietcomfort-ultra-black-68f34b82-1bda-493c-8ab2-746938b54527</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -996,7 +996,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-quietcomfort-ultra-black-9e199c97-4af6-4b14-b0dd-2bb481ba50f6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-quietcomfort-ultra-black-9e199c97-4af6-4b14-b0dd-2bb481ba50f6</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1010,7 +1010,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-quietcomfort-ultra-black-3aba9f5a-6dff-4030-b37a-68cf85baf410</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-quietcomfort-ultra-black-3aba9f5a-6dff-4030-b37a-68cf85baf410</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1024,7 +1024,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-beats-fit-pro-white-c701da9c-1f35-468e-b573-145af76cea82</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-beats-fit-pro-white-c701da9c-1f35-468e-b573-145af76cea82</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1038,7 +1038,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-jbl-tour-pro-3-silver-8f97171b-da39-4ee4-adc5-2ba4a9f3b15e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-jbl-tour-pro-3-silver-8f97171b-da39-4ee4-adc5-2ba4a9f3b15e</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1052,7 +1052,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-jbl-tour-pro-3-silver-6ec6dab3-d15b-438a-838d-596b65697c3b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-jbl-tour-pro-3-silver-6ec6dab3-d15b-438a-838d-596b65697c3b</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1066,7 +1066,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-jbl-tour-pro-3-titanium-fbdfb53f-cd3b-4aae-9f85-eefbd5307dec</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-jbl-tour-pro-3-titanium-fbdfb53f-cd3b-4aae-9f85-eefbd5307dec</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1080,7 +1080,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-ipad-mini-6-midnight-4f92651e-aec4-4904-8a9f-7730ccbc924a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-ipad-mini-6-midnight-4f92651e-aec4-4904-8a9f-7730ccbc924a</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1094,7 +1094,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sennheiser-ie-600-black-93752120-3abd-4fc2-8772-3fac6bd43692</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sennheiser-ie-600-black-93752120-3abd-4fc2-8772-3fac6bd43692</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1108,7 +1108,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sennheiser-ie-600-midnight-c2fbb7a8-3191-41d2-9a06-cf8afef54565</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sennheiser-ie-600-midnight-c2fbb7a8-3191-41d2-9a06-cf8afef54565</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1122,7 +1122,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sennheiser-ie-600-midnight-12b7a0be-7c07-46f7-8b0e-259fe1b79606</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sennheiser-ie-600-midnight-12b7a0be-7c07-46f7-8b0e-259fe1b79606</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1136,7 +1136,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sennheiser-ie-600-midnight-bcf2249f-ed1b-494b-a5a9-7399fb6a61fe</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sennheiser-ie-600-midnight-bcf2249f-ed1b-494b-a5a9-7399fb6a61fe</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1150,7 +1150,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-ipad-air-m2-titanium-94e40aba-64c9-4fd9-be5e-897c29d7633b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-ipad-air-m2-titanium-94e40aba-64c9-4fd9-be5e-897c29d7633b</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1164,7 +1164,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-ipad-air-m2-titanium-799ddb75-9031-43f2-b994-fdafc00f16f9</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-ipad-air-m2-titanium-799ddb75-9031-43f2-b994-fdafc00f16f9</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1178,7 +1178,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-tab-s9-ultra-titanium-fda9a938-09ef-437e-b0bc-3e1e7c0d73c3</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-tab-s9-ultra-titanium-fda9a938-09ef-437e-b0bc-3e1e7c0d73c3</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1192,7 +1192,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-tab-s9-ultra-midnight-a3977b0a-8425-49bc-bae0-bf05cd4d9c03</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-tab-s9-ultra-midnight-a3977b0a-8425-49bc-bae0-bf05cd4d9c03</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1206,7 +1206,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-matepad-pro-132-white-6f80f230-98c8-4883-865d-2bf4c4d3f11f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-matepad-pro-132-white-6f80f230-98c8-4883-865d-2bf4c4d3f11f</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1220,7 +1220,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-matepad-pro-132-white-11089fee-2a0a-4a46-bffd-35094c894dab</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-matepad-pro-132-white-11089fee-2a0a-4a46-bffd-35094c894dab</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1234,7 +1234,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-xiaomi-pad-6s-pro-titanium-fb57ef05-573c-4e5c-9741-fd1ae2912707</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-xiaomi-pad-6s-pro-titanium-fb57ef05-573c-4e5c-9741-fd1ae2912707</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1248,7 +1248,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-xiaomi-pad-6s-pro-silver-cd567602-2a48-42f1-8c45-b405d11dfce0</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-xiaomi-pad-6s-pro-silver-cd567602-2a48-42f1-8c45-b405d11dfce0</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1262,7 +1262,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-xiaomi-pad-6s-pro-starlight-cdfd0984-51b4-4bd9-9cce-f58c09ec6229</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-xiaomi-pad-6s-pro-starlight-cdfd0984-51b4-4bd9-9cce-f58c09ec6229</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1276,7 +1276,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-lenovo-tab-extreme-black-28c0f106-1bd7-45f9-8cb6-fad8c6d2441f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-lenovo-tab-extreme-black-28c0f106-1bd7-45f9-8cb6-fad8c6d2441f</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1290,7 +1290,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-lenovo-tab-extreme-starlight-f13f919d-bf33-4671-8553-63fe1de61794</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-lenovo-tab-extreme-starlight-f13f919d-bf33-4671-8553-63fe1de61794</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1304,7 +1304,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-lenovo-tab-extreme-black-b8449c12-5418-4e5a-bdb5-c74b3f20ec53</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-lenovo-tab-extreme-black-b8449c12-5418-4e5a-bdb5-c74b3f20ec53</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1318,7 +1318,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-ipad-mini-6-silver-ecf6cce1-27ad-4245-866b-9c9a3a4fefa9</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-ipad-mini-6-silver-ecf6cce1-27ad-4245-866b-9c9a3a4fefa9</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1332,7 +1332,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-ipad-mini-6-silver-d7e89344-b4b8-46c4-9f4a-9f3971ed7381</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-ipad-mini-6-silver-d7e89344-b4b8-46c4-9f4a-9f3971ed7381</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1346,7 +1346,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-samsung-galaxy-tab-a9-midnight-473f11c8-d410-4dd8-867b-3d560875bd24</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-samsung-galaxy-tab-a9-midnight-473f11c8-d410-4dd8-867b-3d560875bd24</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1360,7 +1360,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-samsung-galaxy-tab-a9-titanium-23329602-a1da-4357-a83f-a38cb5d70184</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-samsung-galaxy-tab-a9-titanium-23329602-a1da-4357-a83f-a38cb5d70184</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1374,7 +1374,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-samsung-galaxy-tab-a9-white-5694e0d9-18a8-485f-bbcc-53b89df4d66a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-samsung-galaxy-tab-a9-white-5694e0d9-18a8-485f-bbcc-53b89df4d66a</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1388,7 +1388,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-samsung-galaxy-tab-a9-titanium-890c6b12-0c8a-49be-9217-a7376ef1ce04</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-samsung-galaxy-tab-a9-titanium-890c6b12-0c8a-49be-9217-a7376ef1ce04</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1402,7 +1402,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-redmi-pad-pro-white-74939e55-56f6-4ca7-8c06-cacaf1bb1bb3</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-redmi-pad-pro-white-74939e55-56f6-4ca7-8c06-cacaf1bb1bb3</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1416,7 +1416,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-redmi-pad-pro-starlight-4ee3dea0-f1b5-42f5-9be5-fd3309fc3d6b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-redmi-pad-pro-starlight-4ee3dea0-f1b5-42f5-9be5-fd3309fc3d6b</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1430,7 +1430,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-redmi-pad-pro-titanium-2845f761-e215-458d-934a-bab2677735ac</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-redmi-pad-pro-titanium-2845f761-e215-458d-934a-bab2677735ac</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1444,7 +1444,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-garmin-fenix-7x-midnight-c547c677-54c6-4d66-9ed9-53af28c07c4f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-garmin-fenix-7x-midnight-c547c677-54c6-4d66-9ed9-53af28c07c4f</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1458,7 +1458,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-apple-watch-ultra-2-midnight-ab7de926-6d3e-456e-ac08-e5902273b99b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-apple-watch-ultra-2-midnight-ab7de926-6d3e-456e-ac08-e5902273b99b</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1472,7 +1472,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-apple-watch-ultra-2-white-1ee22a65-6c25-40a1-bfb8-3a3474e0f44b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-apple-watch-ultra-2-white-1ee22a65-6c25-40a1-bfb8-3a3474e0f44b</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1486,7 +1486,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-watch6-classic-starlight-ef365dc1-bcd1-4cb1-abc2-06c5a7b0dcf5</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-watch6-classic-starlight-ef365dc1-bcd1-4cb1-abc2-06c5a7b0dcf5</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1500,7 +1500,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-galaxy-watch6-classic-midnight-0d629d3c-c264-49a8-b40e-acd12d39d325</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-galaxy-watch6-classic-midnight-0d629d3c-c264-49a8-b40e-acd12d39d325</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1514,7 +1514,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-pixel-watch-2-starlight-6344c5e3-269b-40f5-b311-b66bf36e8e06</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-pixel-watch-2-starlight-6344c5e3-269b-40f5-b311-b66bf36e8e06</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1528,7 +1528,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-pixel-watch-2-titanium-8e05ea04-b238-4669-9f15-fdba8b7bd4c4</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-pixel-watch-2-titanium-8e05ea04-b238-4669-9f15-fdba8b7bd4c4</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1542,7 +1542,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-garmin-fenix-7x-starlight-4cfa18ac-7ab9-4303-b726-c518abf5b9c4</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-garmin-fenix-7x-starlight-4cfa18ac-7ab9-4303-b726-c518abf5b9c4</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1556,7 +1556,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-huawei-watch-gt-4-titanium-7ec0615a-ebd2-490e-a933-288cb52125bc</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-huawei-watch-gt-4-titanium-7ec0615a-ebd2-490e-a933-288cb52125bc</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1570,7 +1570,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-amazfit-t-rex-2-black-9557b9b7-b427-426b-a728-9adfe2a585bd</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-amazfit-t-rex-2-black-9557b9b7-b427-426b-a728-9adfe2a585bd</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1584,7 +1584,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-amazfit-t-rex-2-starlight-9777e49b-8876-4aae-826c-28042257c9f3</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-amazfit-t-rex-2-starlight-9777e49b-8876-4aae-826c-28042257c9f3</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1598,7 +1598,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-withings-scanwatch-2-titanium-5ad6240f-8cda-4305-ac77-1b537b0bc7b2</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-withings-scanwatch-2-titanium-5ad6240f-8cda-4305-ac77-1b537b0bc7b2</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1612,7 +1612,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-withings-scanwatch-2-titanium-2ed262fa-9b78-4055-b18a-39169b6af71a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-withings-scanwatch-2-titanium-2ed262fa-9b78-4055-b18a-39169b6af71a</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1626,7 +1626,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-withings-scanwatch-2-black-e3c2d0c9-3bba-4b24-94bc-f5167c7e1da2</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-withings-scanwatch-2-black-e3c2d0c9-3bba-4b24-94bc-f5167c7e1da2</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1640,7 +1640,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-withings-scanwatch-2-black-3a5fe6ac-0716-4154-b891-8539e9d12ab6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-withings-scanwatch-2-black-3a5fe6ac-0716-4154-b891-8539e9d12ab6</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1654,7 +1654,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-samsung-galaxy-ring-silver-7315fbad-76fb-468c-bd4d-c70dceec5888</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-samsung-galaxy-ring-silver-7315fbad-76fb-468c-bd4d-c70dceec5888</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1668,7 +1668,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-samsung-galaxy-ring-starlight-143dc172-9f45-4e3f-9b26-83422a2062de</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-samsung-galaxy-ring-starlight-143dc172-9f45-4e3f-9b26-83422a2062de</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1682,7 +1682,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-samsung-galaxy-ring-titanium-c6f9563b-3a14-42b9-9693-6e938e750a11</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-samsung-galaxy-ring-titanium-c6f9563b-3a14-42b9-9693-6e938e750a11</loc>
     <lastmod>2026-05-31T15:32:03+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1696,7 +1696,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-galaxy-s24-ultra-silver-7516a588-0027-4ee3-b885-edb73538feea</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-galaxy-s24-ultra-silver-7516a588-0027-4ee3-b885-edb73538feea</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1710,7 +1710,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-s24-ultra-midnight-75216585-036a-428d-9576-158cfcd62084</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-s24-ultra-midnight-75216585-036a-428d-9576-158cfcd62084</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1724,7 +1724,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-s24-ultra-black-3b01cd99-81b4-41cd-9ba9-fc9d28f7323c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-s24-ultra-black-3b01cd99-81b4-41cd-9ba9-fc9d28f7323c</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1738,7 +1738,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-iphone-15-pro-max-midnight-fee7dc9a-0332-449d-9730-ba9a44212eb2</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-iphone-15-pro-max-midnight-fee7dc9a-0332-449d-9730-ba9a44212eb2</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1752,7 +1752,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-iphone-15-pro-max-silver-fe246f4e-8a5c-4c51-9d61-30de8b45dc6f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-iphone-15-pro-max-silver-fe246f4e-8a5c-4c51-9d61-30de8b45dc6f</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1766,7 +1766,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-iphone-15-pro-max-white-61ea0e8f-3118-4a88-83c8-a0c58b532180</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-iphone-15-pro-max-white-61ea0e8f-3118-4a88-83c8-a0c58b532180</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1780,7 +1780,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-pixel-8-pro-black-69a5533e-5dea-4681-a62c-04723b792ee7</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-pixel-8-pro-black-69a5533e-5dea-4681-a62c-04723b792ee7</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1794,7 +1794,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-pixel-8-pro-black-2c675f43-af38-4f8e-bc6d-59e4a717ec9f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-pixel-8-pro-black-2c675f43-af38-4f8e-bc6d-59e4a717ec9f</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1808,7 +1808,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-xiaomi-14-ultra-white-9ddd3976-37a4-47a8-b03c-149ab1ca7805</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-xiaomi-14-ultra-white-9ddd3976-37a4-47a8-b03c-149ab1ca7805</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1822,7 +1822,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-xiaomi-14-ultra-midnight-ed44cca5-c299-45a4-b8b5-8337e86d274f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-xiaomi-14-ultra-midnight-ed44cca5-c299-45a4-b8b5-8337e86d274f</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1836,7 +1836,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-oneplus-12-titanium-ff69662a-a0a9-4719-b5be-1ac70f3cdf97</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-oneplus-12-titanium-ff69662a-a0a9-4719-b5be-1ac70f3cdf97</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1850,7 +1850,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-oneplus-12-silver-06cba625-dd5b-480e-b68a-2038ee8163e9</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-oneplus-12-silver-06cba625-dd5b-480e-b68a-2038ee8163e9</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1864,7 +1864,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-oneplus-12-black-25fe0705-cb71-4eda-803e-dd236fa0557d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-oneplus-12-black-25fe0705-cb71-4eda-803e-dd236fa0557d</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1878,7 +1878,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-nothing-phone-2-midnight-7eecc329-13e7-41fc-8286-20160652bc86</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-nothing-phone-2-midnight-7eecc329-13e7-41fc-8286-20160652bc86</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1892,7 +1892,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-galaxy-buds2-pro-black-37133056-7876-4d0b-b13b-72a11f63367a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-galaxy-buds2-pro-black-37133056-7876-4d0b-b13b-72a11f63367a</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1906,7 +1906,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-nothing-phone-2-silver-4f8e51f4-9c56-44bb-8e0a-82f42cba54ba</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-nothing-phone-2-silver-4f8e51f4-9c56-44bb-8e0a-82f42cba54ba</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1920,7 +1920,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-nothing-phone-2-midnight-71f29cb6-d131-40d1-a18e-a9d10136b65a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-nothing-phone-2-midnight-71f29cb6-d131-40d1-a18e-a9d10136b65a</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1934,7 +1934,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-sony-xperia-1-v-titanium-4eeacff6-a005-491f-b53b-88bf3961e50b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-sony-xperia-1-v-titanium-4eeacff6-a005-491f-b53b-88bf3961e50b</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1948,7 +1948,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sony-xperia-1-v-white-fccdf9db-e169-499a-8dc0-488626116186</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sony-xperia-1-v-white-fccdf9db-e169-499a-8dc0-488626116186</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1962,7 +1962,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sony-xperia-1-v-white-b4834fff-e251-4ea5-93c6-b59a73a13704</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sony-xperia-1-v-white-b4834fff-e251-4ea5-93c6-b59a73a13704</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1976,7 +1976,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-sony-xperia-1-v-black-76b294d8-93b8-44b0-aef2-493c46e2df89</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-sony-xperia-1-v-black-76b294d8-93b8-44b0-aef2-493c46e2df89</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1990,7 +1990,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-honor-magic6-pro-white-061c9ac7-c27d-4ecb-88f1-26feca5c6e8d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-honor-magic6-pro-white-061c9ac7-c27d-4ecb-88f1-26feca5c6e8d</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2004,7 +2004,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-honor-magic6-pro-black-68c08a50-03aa-458a-853f-dde3b472af24</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-honor-magic6-pro-black-68c08a50-03aa-458a-853f-dde3b472af24</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2018,7 +2018,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-macbook-pro-14-m3-silver-428ff9c1-9eee-4b1e-ac33-fa3c60796ceb</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-macbook-pro-14-m3-silver-428ff9c1-9eee-4b1e-ac33-fa3c60796ceb</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2032,7 +2032,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-macbook-pro-14-m3-black-8992cb62-e65d-4b98-92a1-152b3a64c6da</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-macbook-pro-14-m3-black-8992cb62-e65d-4b98-92a1-152b3a64c6da</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2046,7 +2046,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-thinkpad-x1-carbon-titanium-cd2ce28c-e7f7-4a3f-9b66-ea5ba60d5caa</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-thinkpad-x1-carbon-titanium-cd2ce28c-e7f7-4a3f-9b66-ea5ba60d5caa</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2060,7 +2060,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-thinkpad-x1-carbon-silver-9552080a-bb4e-4c51-9a7a-99b6385ee340</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-thinkpad-x1-carbon-silver-9552080a-bb4e-4c51-9a7a-99b6385ee340</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2074,7 +2074,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-thinkpad-x1-carbon-titanium-64b885b2-aa30-4e6c-89ff-9183102b80aa</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-thinkpad-x1-carbon-titanium-64b885b2-aa30-4e6c-89ff-9183102b80aa</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2088,7 +2088,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-rog-zephyrus-g14-white-417d5790-6853-4f92-91f3-905460169542</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-rog-zephyrus-g14-white-417d5790-6853-4f92-91f3-905460169542</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2102,7 +2102,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-rog-zephyrus-g14-silver-b73c053a-9640-4798-bcbc-e156d311a2c2</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-rog-zephyrus-g14-silver-b73c053a-9640-4798-bcbc-e156d311a2c2</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2116,7 +2116,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-rog-zephyrus-g14-silver-3d8c9f23-2852-464f-aa9c-a5f66027a630</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-rog-zephyrus-g14-silver-3d8c9f23-2852-464f-aa9c-a5f66027a630</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2130,7 +2130,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-dell-xps-15-black-df177c15-5390-4af8-b7ad-1da7bdc38c4e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-dell-xps-15-black-df177c15-5390-4af8-b7ad-1da7bdc38c4e</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2144,7 +2144,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-dell-xps-15-white-5bd7081d-8e6e-4a59-b198-cd0f2d4711ab</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-dell-xps-15-white-5bd7081d-8e6e-4a59-b198-cd0f2d4711ab</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2158,7 +2158,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-hp-spectre-x360-starlight-a28b9966-7c16-4617-b7f6-5489b583296d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-hp-spectre-x360-starlight-a28b9966-7c16-4617-b7f6-5489b583296d</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2172,7 +2172,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-hp-spectre-x360-silver-c49b88fd-ea1d-4487-af81-18cdd6f58c56</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-hp-spectre-x360-silver-c49b88fd-ea1d-4487-af81-18cdd6f58c56</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2186,7 +2186,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-hp-spectre-x360-silver-7175b2c3-7e8d-46fb-a506-5d4c9b37aef3</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-hp-spectre-x360-silver-7175b2c3-7e8d-46fb-a506-5d4c9b37aef3</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2200,7 +2200,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-asus-zenbook-14-white-b1bfb25c-9dca-4992-9dbc-906859ec6be1</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-asus-zenbook-14-white-b1bfb25c-9dca-4992-9dbc-906859ec6be1</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2214,7 +2214,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-asus-zenbook-14-midnight-d6f0c0ea-e561-46cc-87fa-d423945215db</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-asus-zenbook-14-midnight-d6f0c0ea-e561-46cc-87fa-d423945215db</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2228,7 +2228,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-asus-zenbook-14-black-6e13480c-2cce-4234-ab3e-cfbbddfb6ded</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-asus-zenbook-14-black-6e13480c-2cce-4234-ab3e-cfbbddfb6ded</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2242,7 +2242,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-lenovo-ideapad-slim-5-white-8fce2494-f54b-4a2b-b5c9-c06f3f19d6ff</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-lenovo-ideapad-slim-5-white-8fce2494-f54b-4a2b-b5c9-c06f3f19d6ff</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2256,7 +2256,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-lenovo-ideapad-slim-5-starlight-f9f6c436-e87b-4da8-ac03-bbab583fead6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-lenovo-ideapad-slim-5-starlight-f9f6c436-e87b-4da8-ac03-bbab583fead6</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2270,7 +2270,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-acer-swift-go-14-starlight-47e21958-1560-4d12-9047-cbede5935820</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-acer-swift-go-14-starlight-47e21958-1560-4d12-9047-cbede5935820</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2284,7 +2284,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-acer-swift-go-14-white-11650ead-8170-45ce-b284-4e4d77f8e04f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-acer-swift-go-14-white-11650ead-8170-45ce-b284-4e4d77f8e04f</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2298,7 +2298,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-airpods-pro-2-midnight-4bb3d112-9a73-49e4-b56a-44a925684e83</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-airpods-pro-2-midnight-4bb3d112-9a73-49e4-b56a-44a925684e83</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2312,7 +2312,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-airpods-pro-2-white-8ee75d16-00f9-410d-b670-adfd34dc177c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-airpods-pro-2-white-8ee75d16-00f9-410d-b670-adfd34dc177c</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2326,7 +2326,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-airpods-pro-2-black-972c117b-245a-4e62-9126-aa654ee4828c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-airpods-pro-2-black-972c117b-245a-4e62-9126-aa654ee4828c</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2340,7 +2340,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-wh-1000xm5-black-23f2ce0f-7ff3-4c3f-8dff-84427923f0c7</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-wh-1000xm5-black-23f2ce0f-7ff3-4c3f-8dff-84427923f0c7</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2354,7 +2354,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-wh-1000xm5-starlight-3b347151-50c5-46d2-84cb-ac1292ee7b7f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-wh-1000xm5-starlight-3b347151-50c5-46d2-84cb-ac1292ee7b7f</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2368,7 +2368,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-wh-1000xm5-white-3acae47c-4eb9-4f76-b4d3-76ae11a11b3e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-wh-1000xm5-white-3acae47c-4eb9-4f76-b4d3-76ae11a11b3e</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2382,7 +2382,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-buds2-pro-white-81e3389b-b62a-413b-90d9-d4fff915d5c6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-buds2-pro-white-81e3389b-b62a-413b-90d9-d4fff915d5c6</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2396,7 +2396,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-momentum-tw-4-silver-2a5aabcc-0af0-4767-8fb5-0e4a0473eab7</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-momentum-tw-4-silver-2a5aabcc-0af0-4767-8fb5-0e4a0473eab7</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2410,7 +2410,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-momentum-tw-4-silver-9895211b-c956-4488-ae12-9d819f9af026</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-momentum-tw-4-silver-9895211b-c956-4488-ae12-9d819f9af026</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2424,7 +2424,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-quietcomfort-ultra-black-950c7676-1b8a-4080-9605-aaf2f133f990</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-quietcomfort-ultra-black-950c7676-1b8a-4080-9605-aaf2f133f990</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2438,7 +2438,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-quietcomfort-ultra-starlight-1f2b61d4-7e22-4445-aa5d-33c4f0954c81</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-quietcomfort-ultra-starlight-1f2b61d4-7e22-4445-aa5d-33c4f0954c81</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2452,7 +2452,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-beats-fit-pro-starlight-f5f92787-723d-4df6-aed5-ac39f861b58a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-beats-fit-pro-starlight-f5f92787-723d-4df6-aed5-ac39f861b58a</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2466,7 +2466,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-beats-fit-pro-midnight-274793e4-a583-4f46-8ee2-a5cff2c8accd</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-beats-fit-pro-midnight-274793e4-a583-4f46-8ee2-a5cff2c8accd</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2480,7 +2480,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-beats-fit-pro-white-b1a75ecc-fbb4-4198-8899-ba842ec9c7f8</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-beats-fit-pro-white-b1a75ecc-fbb4-4198-8899-ba842ec9c7f8</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2494,7 +2494,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-beats-fit-pro-black-2256b61d-5638-4efe-b199-56f6c4c39f38</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-beats-fit-pro-black-2256b61d-5638-4efe-b199-56f6c4c39f38</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2508,7 +2508,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-jbl-tour-pro-3-midnight-4238f7a0-a027-4cf8-a6fc-a6b3ff93a1ac</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-jbl-tour-pro-3-midnight-4238f7a0-a027-4cf8-a6fc-a6b3ff93a1ac</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2522,7 +2522,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-jbl-tour-pro-3-silver-5312f5f5-bb4b-4695-8645-64382b0374ad</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-jbl-tour-pro-3-silver-5312f5f5-bb4b-4695-8645-64382b0374ad</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2536,7 +2536,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-sennheiser-ie-600-titanium-576b6793-f2a0-4821-a200-e2d9783c7efa</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-sennheiser-ie-600-titanium-576b6793-f2a0-4821-a200-e2d9783c7efa</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2550,7 +2550,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-lenovo-tab-extreme-black-c05510cd-a8a6-433e-a697-32ced90aaf3f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-lenovo-tab-extreme-black-c05510cd-a8a6-433e-a697-32ced90aaf3f</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2564,7 +2564,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-ipad-air-m2-midnight-54ddf869-154e-4b3f-abd9-8bacac09e553</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-ipad-air-m2-midnight-54ddf869-154e-4b3f-abd9-8bacac09e553</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2578,7 +2578,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-ipad-air-m2-starlight-5135bf5e-c12e-42ec-9ddf-d159211b2174</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-ipad-air-m2-starlight-5135bf5e-c12e-42ec-9ddf-d159211b2174</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2592,7 +2592,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-ipad-air-m2-white-e9dcf996-3aa3-4e8d-802c-db9cb8a3fc05</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-ipad-air-m2-white-e9dcf996-3aa3-4e8d-802c-db9cb8a3fc05</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2606,7 +2606,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-ipad-air-m2-titanium-019b082b-b630-4bee-b171-3d8e05d7af07</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-ipad-air-m2-titanium-019b082b-b630-4bee-b171-3d8e05d7af07</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2620,7 +2620,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-galaxy-tab-s9-ultra-midnight-c3424ab9-0253-46db-b6e4-efed5dd41e7d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-galaxy-tab-s9-ultra-midnight-c3424ab9-0253-46db-b6e4-efed5dd41e7d</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2634,7 +2634,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-tab-s9-ultra-silver-a9670e40-3266-4a54-bad5-26daf61cfa78</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-tab-s9-ultra-silver-a9670e40-3266-4a54-bad5-26daf61cfa78</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2648,7 +2648,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-galaxy-tab-s9-ultra-white-8b5a3612-f2d7-4f5b-b28b-e135f3a6249f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-galaxy-tab-s9-ultra-white-8b5a3612-f2d7-4f5b-b28b-e135f3a6249f</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2662,7 +2662,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-matepad-pro-132-titanium-ea31d177-73e5-4ce9-8a39-0fb6d9c5bb2c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-matepad-pro-132-titanium-ea31d177-73e5-4ce9-8a39-0fb6d9c5bb2c</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2676,7 +2676,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-matepad-pro-132-midnight-ef784487-0dbe-4b44-8166-53df263803ce</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-matepad-pro-132-midnight-ef784487-0dbe-4b44-8166-53df263803ce</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2690,7 +2690,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-matepad-pro-132-black-c2e262ec-f2e6-4d85-9d18-be2174564e5a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-matepad-pro-132-black-c2e262ec-f2e6-4d85-9d18-be2174564e5a</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2704,7 +2704,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-xiaomi-pad-6s-pro-starlight-2a630edd-43bd-4700-83e1-145f8e0995b9</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-xiaomi-pad-6s-pro-starlight-2a630edd-43bd-4700-83e1-145f8e0995b9</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2718,7 +2718,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-xiaomi-pad-6s-pro-black-e6d8b654-7cfa-4c0f-af86-e5ea7d913132</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-xiaomi-pad-6s-pro-black-e6d8b654-7cfa-4c0f-af86-e5ea7d913132</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2732,7 +2732,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-lenovo-tab-extreme-silver-b64d3958-205b-4080-b5bb-27aec3886a0d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-lenovo-tab-extreme-silver-b64d3958-205b-4080-b5bb-27aec3886a0d</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2746,7 +2746,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-ipad-mini-6-white-51c31b3a-787b-45a8-ac17-40e8d1f42302</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-ipad-mini-6-white-51c31b3a-787b-45a8-ac17-40e8d1f42302</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2760,7 +2760,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-ipad-mini-6-black-51d34faa-3478-4630-b27c-b6d6ad0ad37c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-ipad-mini-6-black-51d34faa-3478-4630-b27c-b6d6ad0ad37c</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2774,7 +2774,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-samsung-galaxy-tab-a9-white-0da2cf6c-8b4b-4bdb-b4b2-cba6c77b7fe0</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-samsung-galaxy-tab-a9-white-0da2cf6c-8b4b-4bdb-b4b2-cba6c77b7fe0</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2788,7 +2788,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-samsung-galaxy-tab-a9-silver-daba0d7e-6395-4815-85eb-846a427f22d5</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-samsung-galaxy-tab-a9-silver-daba0d7e-6395-4815-85eb-846a427f22d5</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2802,7 +2802,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-samsung-galaxy-tab-a9-starlight-d7dd04e2-56c7-49a2-b212-3db9fec9e1c2</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-samsung-galaxy-tab-a9-starlight-d7dd04e2-56c7-49a2-b212-3db9fec9e1c2</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2816,7 +2816,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-redmi-pad-pro-silver-0d83530f-2a2e-4bb0-942d-b50346cce59b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-redmi-pad-pro-silver-0d83530f-2a2e-4bb0-942d-b50346cce59b</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2830,7 +2830,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-redmi-pad-pro-starlight-931c99c6-0f28-47c3-91db-9701f1293b9b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-redmi-pad-pro-starlight-931c99c6-0f28-47c3-91db-9701f1293b9b</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2844,7 +2844,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-apple-watch-ultra-2-silver-b85dd0f7-6518-4a5c-b2ad-ad2bf1b01447</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-apple-watch-ultra-2-silver-b85dd0f7-6518-4a5c-b2ad-ad2bf1b01447</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2858,7 +2858,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-apple-watch-ultra-2-midnight-eec4e69b-ac41-4d21-9d22-8842963f8ea3</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-apple-watch-ultra-2-midnight-eec4e69b-ac41-4d21-9d22-8842963f8ea3</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2872,7 +2872,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-apple-watch-ultra-2-titanium-3c20d224-faf5-4b72-bf3e-4f2106377f81</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-apple-watch-ultra-2-titanium-3c20d224-faf5-4b72-bf3e-4f2106377f81</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2886,7 +2886,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-apple-watch-ultra-2-black-f4766622-c823-4aa6-8dfa-f4275cfb7868</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-apple-watch-ultra-2-black-f4766622-c823-4aa6-8dfa-f4275cfb7868</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2900,7 +2900,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-watch6-classic-starlight-deda85e7-a8be-43e3-a02b-7a18aef1ca8e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-watch6-classic-starlight-deda85e7-a8be-43e3-a02b-7a18aef1ca8e</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2914,7 +2914,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-watch6-classic-starlight-1e76683e-84ca-4ac8-8cab-3155f6edadf7</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-watch6-classic-starlight-1e76683e-84ca-4ac8-8cab-3155f6edadf7</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2928,7 +2928,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-garmin-fenix-7x-titanium-f0ad887a-0b64-46f8-a088-cb7dde15555c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-garmin-fenix-7x-titanium-f0ad887a-0b64-46f8-a088-cb7dde15555c</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2942,7 +2942,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-galaxy-watch6-classic-titanium-145c51ae-96ff-4171-a430-191c29dfd3f5</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-galaxy-watch6-classic-titanium-145c51ae-96ff-4171-a430-191c29dfd3f5</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2956,7 +2956,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-galaxy-watch6-classic-starlight-cca65a2c-d67a-4807-bd67-ff50f88ff917</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-galaxy-watch6-classic-starlight-cca65a2c-d67a-4807-bd67-ff50f88ff917</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2970,7 +2970,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-pixel-watch-2-starlight-cd64a773-cd46-446d-9769-d1add30cfc01</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-pixel-watch-2-starlight-cd64a773-cd46-446d-9769-d1add30cfc01</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2984,7 +2984,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-pixel-watch-2-black-13478d22-f0d4-47f1-96ba-3b4d024b70a0</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-pixel-watch-2-black-13478d22-f0d4-47f1-96ba-3b4d024b70a0</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2998,7 +2998,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-garmin-fenix-7x-titanium-7d29fbbc-1974-47ad-b571-ade8c5ceb865</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-garmin-fenix-7x-titanium-7d29fbbc-1974-47ad-b571-ade8c5ceb865</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3012,7 +3012,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-garmin-fenix-7x-starlight-3bef789d-cfc7-4f35-96e7-d98f686efbc4</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-garmin-fenix-7x-starlight-3bef789d-cfc7-4f35-96e7-d98f686efbc4</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3026,7 +3026,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-garmin-fenix-7x-white-e2b8bff6-0934-4a38-b5ba-f0d3181103f6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-garmin-fenix-7x-white-e2b8bff6-0934-4a38-b5ba-f0d3181103f6</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3040,7 +3040,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-garmin-fenix-7x-silver-b5ce2c06-2380-45ed-b0a3-be7633c7b049</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-garmin-fenix-7x-silver-b5ce2c06-2380-45ed-b0a3-be7633c7b049</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3054,7 +3054,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-huawei-watch-gt-4-midnight-41cedcdf-e35d-4f3b-be0f-9ebfd366413c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-huawei-watch-gt-4-midnight-41cedcdf-e35d-4f3b-be0f-9ebfd366413c</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3068,7 +3068,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-huawei-watch-gt-4-titanium-515680a1-6988-4dec-ae83-77a16c545b09</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-huawei-watch-gt-4-titanium-515680a1-6988-4dec-ae83-77a16c545b09</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3082,7 +3082,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-huawei-watch-gt-4-starlight-02ac603d-e3fe-4094-874d-c8fe4453823f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-huawei-watch-gt-4-starlight-02ac603d-e3fe-4094-874d-c8fe4453823f</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3096,7 +3096,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-huawei-watch-gt-4-black-5f2c96af-3263-4ec7-b185-fd392369a443</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-huawei-watch-gt-4-black-5f2c96af-3263-4ec7-b185-fd392369a443</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3110,7 +3110,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-samsung-galaxy-ring-starlight-9ebcae35-94d2-4370-8398-3684f7330685</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-samsung-galaxy-ring-starlight-9ebcae35-94d2-4370-8398-3684f7330685</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3124,7 +3124,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-amazfit-t-rex-2-white-925979ef-7e77-4a9d-adf8-2b0d6a524c4a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-amazfit-t-rex-2-white-925979ef-7e77-4a9d-adf8-2b0d6a524c4a</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3138,7 +3138,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-amazfit-t-rex-2-white-4a06a4b4-925e-445d-aa07-4f971863c025</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-amazfit-t-rex-2-white-4a06a4b4-925e-445d-aa07-4f971863c025</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3152,7 +3152,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-amazfit-t-rex-2-black-5eed1a4f-bd26-4c48-acb6-6d8a13c08c0d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-amazfit-t-rex-2-black-5eed1a4f-bd26-4c48-acb6-6d8a13c08c0d</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3166,7 +3166,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-amazfit-t-rex-2-black-6b9311e8-f26d-454c-9e53-00c54322814f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-amazfit-t-rex-2-black-6b9311e8-f26d-454c-9e53-00c54322814f</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3180,7 +3180,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-withings-scanwatch-2-starlight-513fe00b-fc5f-4e79-bb0f-27904abb6595</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-withings-scanwatch-2-starlight-513fe00b-fc5f-4e79-bb0f-27904abb6595</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3194,7 +3194,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-withings-scanwatch-2-silver-282ac4b1-ae2b-49e2-b161-9d1be5c3074c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-withings-scanwatch-2-silver-282ac4b1-ae2b-49e2-b161-9d1be5c3074c</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3208,7 +3208,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-samsung-galaxy-ring-titanium-026faa7e-cab7-4720-ad30-f99822c6688b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-samsung-galaxy-ring-titanium-026faa7e-cab7-4720-ad30-f99822c6688b</loc>
     <lastmod>2026-05-31T15:32:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3222,7 +3222,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-galaxy-s24-ultra-starlight-23a1b9ee-feef-4ec9-be49-d49c3707aeae</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-galaxy-s24-ultra-starlight-23a1b9ee-feef-4ec9-be49-d49c3707aeae</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3236,7 +3236,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-s24-ultra-titanium-f21f11bb-44e2-4c4e-92f4-8b34266dbb76</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-s24-ultra-titanium-f21f11bb-44e2-4c4e-92f4-8b34266dbb76</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3250,7 +3250,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-galaxy-s24-ultra-silver-be6ab129-bb5a-4df3-8328-2bafab4eb404</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-galaxy-s24-ultra-silver-be6ab129-bb5a-4df3-8328-2bafab4eb404</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3264,7 +3264,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-iphone-15-pro-max-black-fc53467d-d698-4df6-9d84-edc967f2a1fd</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-iphone-15-pro-max-black-fc53467d-d698-4df6-9d84-edc967f2a1fd</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3278,7 +3278,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-iphone-15-pro-max-black-f29cdee5-edbb-452a-803a-7793db4d4735</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-iphone-15-pro-max-black-f29cdee5-edbb-452a-803a-7793db4d4735</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3292,7 +3292,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-iphone-15-pro-max-white-cb10d02e-5ddd-40c2-a738-54816c79e5bd</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-iphone-15-pro-max-white-cb10d02e-5ddd-40c2-a738-54816c79e5bd</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3306,7 +3306,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-ipad-mini-6-black-239e394b-454a-4531-b9ad-2e6b198775ed</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-ipad-mini-6-black-239e394b-454a-4531-b9ad-2e6b198775ed</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3320,7 +3320,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-iphone-15-pro-max-black-471571f7-e6d0-406a-8b5e-371755a0203e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-iphone-15-pro-max-black-471571f7-e6d0-406a-8b5e-371755a0203e</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3334,7 +3334,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-pixel-8-pro-titanium-6d2dfa68-5083-446b-9c60-ec14d2f658d6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-pixel-8-pro-titanium-6d2dfa68-5083-446b-9c60-ec14d2f658d6</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3348,7 +3348,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-pixel-8-pro-black-8aa4373d-5e37-400f-9d3c-5c0c389ed452</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-pixel-8-pro-black-8aa4373d-5e37-400f-9d3c-5c0c389ed452</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3362,7 +3362,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-pixel-8-pro-white-c9c28891-3ca1-40a2-9091-73a7ec275998</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-pixel-8-pro-white-c9c28891-3ca1-40a2-9091-73a7ec275998</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3376,7 +3376,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-xiaomi-14-ultra-titanium-8f6fea62-73b7-4336-b986-093c80d37a36</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-xiaomi-14-ultra-titanium-8f6fea62-73b7-4336-b986-093c80d37a36</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3390,7 +3390,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-xiaomi-14-ultra-titanium-09e82fe8-a401-4c1e-b242-9d5172ce2b15</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-xiaomi-14-ultra-titanium-09e82fe8-a401-4c1e-b242-9d5172ce2b15</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3404,7 +3404,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-xiaomi-14-ultra-titanium-b648f835-a587-4c06-8afa-9e164dcd27bc</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-xiaomi-14-ultra-titanium-b648f835-a587-4c06-8afa-9e164dcd27bc</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3418,7 +3418,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-oneplus-12-black-dafe0fe8-1be1-42d7-b59c-d30fee33f79b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-oneplus-12-black-dafe0fe8-1be1-42d7-b59c-d30fee33f79b</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3432,7 +3432,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-oneplus-12-white-6f526d70-aa67-4ded-b47c-f4c46922e9b1</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-oneplus-12-white-6f526d70-aa67-4ded-b47c-f4c46922e9b1</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3446,7 +3446,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-oneplus-12-titanium-8c34dd9a-67e6-4d4e-ab0a-1c56b6876f01</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-oneplus-12-titanium-8c34dd9a-67e6-4d4e-ab0a-1c56b6876f01</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3460,7 +3460,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-oneplus-12-titanium-a4acc008-bca9-4bff-9080-1e2bf726885e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-oneplus-12-titanium-a4acc008-bca9-4bff-9080-1e2bf726885e</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3474,7 +3474,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-nothing-phone-2-starlight-a4103a9f-1e94-46bd-8efe-982cb376a09c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-nothing-phone-2-starlight-a4103a9f-1e94-46bd-8efe-982cb376a09c</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3488,7 +3488,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-nothing-phone-2-starlight-1f0e2ba4-f728-464d-9bd4-f46bd8c18f3e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-nothing-phone-2-starlight-1f0e2ba4-f728-464d-9bd4-f46bd8c18f3e</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3502,7 +3502,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-nothing-phone-2-white-0af85acc-f65d-42fc-9469-de376930be42</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-nothing-phone-2-white-0af85acc-f65d-42fc-9469-de376930be42</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3516,7 +3516,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-sony-xperia-1-v-midnight-b95c5cc1-5ee9-4141-b455-b7587e36da7b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-sony-xperia-1-v-midnight-b95c5cc1-5ee9-4141-b455-b7587e36da7b</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3530,7 +3530,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-sony-xperia-1-v-midnight-4f2084bd-8469-4fe5-9a93-b6bf2bc234e9</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-sony-xperia-1-v-midnight-4f2084bd-8469-4fe5-9a93-b6bf2bc234e9</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3544,7 +3544,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-sony-xperia-1-v-midnight-3fa6a828-d1ab-4a7f-a2a3-c573b788583c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-sony-xperia-1-v-midnight-3fa6a828-d1ab-4a7f-a2a3-c573b788583c</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3558,7 +3558,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-sony-xperia-1-v-titanium-de9f0a72-e2fb-4cc1-8803-b74236a9b200</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-sony-xperia-1-v-titanium-de9f0a72-e2fb-4cc1-8803-b74236a9b200</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3572,7 +3572,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-honor-magic6-pro-white-ce9f8186-13ac-442e-91ee-64cf01676baf</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-honor-magic6-pro-white-ce9f8186-13ac-442e-91ee-64cf01676baf</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3586,7 +3586,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-honor-magic6-pro-white-6bcb4bcf-f223-430c-af4e-26fc8c375613</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-honor-magic6-pro-white-6bcb4bcf-f223-430c-af4e-26fc8c375613</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3600,7 +3600,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-honor-magic6-pro-black-324607aa-0e21-404d-aaa1-9fd96eff69d1</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-honor-magic6-pro-black-324607aa-0e21-404d-aaa1-9fd96eff69d1</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3614,7 +3614,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-honor-magic6-pro-starlight-05d54b33-391e-4113-ba36-60499621ed51</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-honor-magic6-pro-starlight-05d54b33-391e-4113-ba36-60499621ed51</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3628,7 +3628,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-macbook-pro-14-m3-silver-14eade4e-acfe-4563-afe7-ec08343c8da0</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-macbook-pro-14-m3-silver-14eade4e-acfe-4563-afe7-ec08343c8da0</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3642,7 +3642,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-ipad-mini-6-starlight-dfdf6561-c36b-4fc3-a190-1aa86df5ba83</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-ipad-mini-6-starlight-dfdf6561-c36b-4fc3-a190-1aa86df5ba83</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3656,7 +3656,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-macbook-pro-14-m3-starlight-2efab995-336f-46da-807d-172be0090104</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-macbook-pro-14-m3-starlight-2efab995-336f-46da-807d-172be0090104</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3670,7 +3670,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-macbook-pro-14-m3-silver-25c34bc1-89dc-4e53-92bd-5d4d81942349</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-macbook-pro-14-m3-silver-25c34bc1-89dc-4e53-92bd-5d4d81942349</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3684,7 +3684,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-macbook-pro-14-m3-white-4bcb4496-0232-43ad-8286-a776713e01ec</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-macbook-pro-14-m3-white-4bcb4496-0232-43ad-8286-a776713e01ec</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3698,7 +3698,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-thinkpad-x1-carbon-black-3faf6a3f-4de2-4c9a-a1d6-b2ada4c14f5a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-thinkpad-x1-carbon-black-3faf6a3f-4de2-4c9a-a1d6-b2ada4c14f5a</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3712,7 +3712,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-thinkpad-x1-carbon-black-022b71c8-2d66-4ca7-8de8-7f7204490406</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-thinkpad-x1-carbon-black-022b71c8-2d66-4ca7-8de8-7f7204490406</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3726,7 +3726,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-rog-zephyrus-g14-titanium-f16ebaa2-578c-425e-b361-5ea6356f3d71</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-rog-zephyrus-g14-titanium-f16ebaa2-578c-425e-b361-5ea6356f3d71</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3740,7 +3740,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-rog-zephyrus-g14-black-5e5d0b85-e3da-467f-8968-27da9f8e569c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-rog-zephyrus-g14-black-5e5d0b85-e3da-467f-8968-27da9f8e569c</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3754,7 +3754,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-rog-zephyrus-g14-midnight-e1b56a09-1833-4ec3-81a3-13944221e0b4</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-rog-zephyrus-g14-midnight-e1b56a09-1833-4ec3-81a3-13944221e0b4</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3768,7 +3768,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-rog-zephyrus-g14-titanium-96f91b8e-d14f-4718-b817-368413710bf7</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-rog-zephyrus-g14-titanium-96f91b8e-d14f-4718-b817-368413710bf7</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3782,7 +3782,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-dell-xps-15-silver-d6db39b6-ff15-4000-93d9-b779c47e237e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-dell-xps-15-silver-d6db39b6-ff15-4000-93d9-b779c47e237e</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3796,7 +3796,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-dell-xps-15-titanium-304aa753-950b-4aa1-b783-c72d0b4668f7</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-dell-xps-15-titanium-304aa753-950b-4aa1-b783-c72d0b4668f7</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3810,7 +3810,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-dell-xps-15-white-385267a5-19ec-4f1d-9882-8e40db96d3de</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-dell-xps-15-white-385267a5-19ec-4f1d-9882-8e40db96d3de</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3824,7 +3824,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-dell-xps-15-titanium-79102c10-d7fc-4938-be3c-1e9558aa9882</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-dell-xps-15-titanium-79102c10-d7fc-4938-be3c-1e9558aa9882</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3838,7 +3838,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-hp-spectre-x360-midnight-406a295a-30da-4a11-b390-408b3771ce1e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-hp-spectre-x360-midnight-406a295a-30da-4a11-b390-408b3771ce1e</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3852,7 +3852,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-hp-spectre-x360-titanium-87a620d3-cec3-48e9-8b30-14db285e624b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-hp-spectre-x360-titanium-87a620d3-cec3-48e9-8b30-14db285e624b</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3866,7 +3866,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-asus-zenbook-14-titanium-4e3e9bb4-8869-4508-960e-8313549f95ac</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-asus-zenbook-14-titanium-4e3e9bb4-8869-4508-960e-8313549f95ac</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3880,7 +3880,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-asus-zenbook-14-silver-658edaac-019c-4b20-805b-d6e2f738255b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-asus-zenbook-14-silver-658edaac-019c-4b20-805b-d6e2f738255b</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3894,7 +3894,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-lenovo-ideapad-slim-5-white-df96cf2c-8917-48a5-9286-e68147c67e55</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-lenovo-ideapad-slim-5-white-df96cf2c-8917-48a5-9286-e68147c67e55</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3908,7 +3908,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-lenovo-ideapad-slim-5-black-ade70cec-9827-4591-a261-d784fcd1623f</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-lenovo-ideapad-slim-5-black-ade70cec-9827-4591-a261-d784fcd1623f</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3922,7 +3922,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-lenovo-ideapad-slim-5-titanium-8f8840c1-5ac8-4307-a515-4dabf079e09a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-lenovo-ideapad-slim-5-titanium-8f8840c1-5ac8-4307-a515-4dabf079e09a</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3936,7 +3936,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-lenovo-ideapad-slim-5-black-ed6024d9-8520-4022-b01c-89a71fa42e0a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-lenovo-ideapad-slim-5-black-ed6024d9-8520-4022-b01c-89a71fa42e0a</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3950,7 +3950,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-acer-swift-go-14-black-b45d9ebb-9de9-4213-ad7d-b0d4e8bf3cf4</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-acer-swift-go-14-black-b45d9ebb-9de9-4213-ad7d-b0d4e8bf3cf4</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3964,7 +3964,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-acer-swift-go-14-starlight-4a9ba5ef-b26e-4e53-9299-48a64e012b98</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-acer-swift-go-14-starlight-4a9ba5ef-b26e-4e53-9299-48a64e012b98</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3978,7 +3978,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-airpods-pro-2-midnight-8383ad99-02e2-4e30-86d8-bac0a82fd3aa</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-airpods-pro-2-midnight-8383ad99-02e2-4e30-86d8-bac0a82fd3aa</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -3992,7 +3992,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-airpods-pro-2-white-ced70975-8918-46aa-a839-50e38b2dcfad</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-airpods-pro-2-white-ced70975-8918-46aa-a839-50e38b2dcfad</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4006,7 +4006,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-airpods-pro-2-midnight-4eeefc99-3f14-45fe-bf27-bce81ddb6845</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-airpods-pro-2-midnight-4eeefc99-3f14-45fe-bf27-bce81ddb6845</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4020,7 +4020,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-airpods-pro-2-black-f9feae94-4129-487e-8b23-050fb89225d5</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-airpods-pro-2-black-f9feae94-4129-487e-8b23-050fb89225d5</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4034,7 +4034,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-wh-1000xm5-white-968c11fa-e892-41a1-83fc-3f1a4f7742c4</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-wh-1000xm5-white-968c11fa-e892-41a1-83fc-3f1a4f7742c4</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4048,7 +4048,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-wh-1000xm5-midnight-9adf2da3-da47-41da-bd38-b6e569425947</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-wh-1000xm5-midnight-9adf2da3-da47-41da-bd38-b6e569425947</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4062,7 +4062,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-wh-1000xm5-white-265d7194-54bb-4456-9edd-90a5d865dead</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-wh-1000xm5-white-265d7194-54bb-4456-9edd-90a5d865dead</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4076,7 +4076,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-wh-1000xm5-midnight-873dfa03-5012-46e4-94a3-4249af0776a6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-wh-1000xm5-midnight-873dfa03-5012-46e4-94a3-4249af0776a6</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4090,7 +4090,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-buds2-pro-silver-c25048ab-1676-42e0-876f-803d621d4f49</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-buds2-pro-silver-c25048ab-1676-42e0-876f-803d621d4f49</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4104,7 +4104,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-galaxy-buds2-pro-titanium-c853c505-f1b1-43a9-9e23-acb7315971b0</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-galaxy-buds2-pro-titanium-c853c505-f1b1-43a9-9e23-acb7315971b0</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4118,7 +4118,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-galaxy-buds2-pro-titanium-1685718e-8877-4228-ae6d-9693541a115b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-galaxy-buds2-pro-titanium-1685718e-8877-4228-ae6d-9693541a115b</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4132,7 +4132,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-momentum-tw-4-silver-29318f6e-1723-4548-88ef-8aed0f3518a8</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-momentum-tw-4-silver-29318f6e-1723-4548-88ef-8aed0f3518a8</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4146,7 +4146,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-momentum-tw-4-white-09e9635b-466d-4f19-9806-18649a6f2d16</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-momentum-tw-4-white-09e9635b-466d-4f19-9806-18649a6f2d16</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4160,7 +4160,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-momentum-tw-4-titanium-ec3637c9-8896-4cc7-bc4d-17018d842da9</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-momentum-tw-4-titanium-ec3637c9-8896-4cc7-bc4d-17018d842da9</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4174,7 +4174,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-momentum-tw-4-starlight-2122595f-e278-467d-9502-330e161e999c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-momentum-tw-4-starlight-2122595f-e278-467d-9502-330e161e999c</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4188,7 +4188,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-quietcomfort-ultra-black-a79d9d88-d8f9-4950-8b40-c3ea3b4f8343</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-quietcomfort-ultra-black-a79d9d88-d8f9-4950-8b40-c3ea3b4f8343</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4202,7 +4202,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-quietcomfort-ultra-silver-37008375-4f38-412e-bfa2-cd1f136e0589</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-quietcomfort-ultra-silver-37008375-4f38-412e-bfa2-cd1f136e0589</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4216,7 +4216,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-beats-fit-pro-titanium-f9884bf2-1fcb-43d6-9617-5505b0ce106a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-beats-fit-pro-titanium-f9884bf2-1fcb-43d6-9617-5505b0ce106a</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4230,7 +4230,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-beats-fit-pro-white-4ab32397-5683-4682-a95c-acc2341c189e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-beats-fit-pro-white-4ab32397-5683-4682-a95c-acc2341c189e</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4244,7 +4244,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-beats-fit-pro-white-91cf965e-2465-47f5-a2cf-4317bf2ea5d1</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-beats-fit-pro-white-91cf965e-2465-47f5-a2cf-4317bf2ea5d1</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4258,7 +4258,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-jbl-tour-pro-3-midnight-5f1b0b9b-d1e2-44ea-a173-27819e3790ad</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-jbl-tour-pro-3-midnight-5f1b0b9b-d1e2-44ea-a173-27819e3790ad</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4272,7 +4272,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-jbl-tour-pro-3-black-fba91689-9a64-4b2d-aec7-d16133b7a463</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-jbl-tour-pro-3-black-fba91689-9a64-4b2d-aec7-d16133b7a463</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4286,7 +4286,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sennheiser-ie-600-white-404ba88f-9ac6-434b-9917-bbc1fae3b9f3</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sennheiser-ie-600-white-404ba88f-9ac6-434b-9917-bbc1fae3b9f3</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4300,7 +4300,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-sennheiser-ie-600-titanium-4089f613-900e-4009-8ac5-8239200a203b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-sennheiser-ie-600-titanium-4089f613-900e-4009-8ac5-8239200a203b</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4314,7 +4314,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-sennheiser-ie-600-silver-4343b5fd-43a6-4fe6-9ca0-f90db429923a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-sennheiser-ie-600-silver-4343b5fd-43a6-4fe6-9ca0-f90db429923a</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4328,7 +4328,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-ipad-air-m2-white-34a8a7ba-6721-48a3-ad67-825b5757ec2d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-ipad-air-m2-white-34a8a7ba-6721-48a3-ad67-825b5757ec2d</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4342,7 +4342,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-ipad-air-m2-silver-4d1c123f-7bca-48d6-8646-b3343d5c4b6a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-ipad-air-m2-silver-4d1c123f-7bca-48d6-8646-b3343d5c4b6a</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4356,7 +4356,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-ipad-air-m2-silver-f36d468b-c0ce-40bd-b6be-72e95b2b611c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-ipad-air-m2-silver-f36d468b-c0ce-40bd-b6be-72e95b2b611c</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4370,7 +4370,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-tab-s9-ultra-titanium-2312fd3c-fece-45bd-803d-bc9cbf6c9f60</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-tab-s9-ultra-titanium-2312fd3c-fece-45bd-803d-bc9cbf6c9f60</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4384,7 +4384,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-tab-s9-ultra-silver-60494024-d7d8-49d8-8558-a1bd7b35be58</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-tab-s9-ultra-silver-60494024-d7d8-49d8-8558-a1bd7b35be58</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4398,7 +4398,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-galaxy-tab-s9-ultra-silver-5c38636c-0409-4a54-ba65-02fca600a09b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-galaxy-tab-s9-ultra-silver-5c38636c-0409-4a54-ba65-02fca600a09b</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4412,7 +4412,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-tab-s9-ultra-starlight-ae3f0f7e-80e6-4cf0-b27f-10a9bdbe0ab3</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-tab-s9-ultra-starlight-ae3f0f7e-80e6-4cf0-b27f-10a9bdbe0ab3</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4426,7 +4426,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-matepad-pro-132-starlight-8708a9b5-67d9-4d15-a793-584d768d7575</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-matepad-pro-132-starlight-8708a9b5-67d9-4d15-a793-584d768d7575</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4440,7 +4440,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-matepad-pro-132-midnight-53bf1c62-4c5e-4cfa-a1c6-b362d6ac124d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-matepad-pro-132-midnight-53bf1c62-4c5e-4cfa-a1c6-b362d6ac124d</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4454,7 +4454,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-matepad-pro-132-white-dfd33df9-89c7-474c-856d-1064ca2040e2</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-matepad-pro-132-white-dfd33df9-89c7-474c-856d-1064ca2040e2</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4468,7 +4468,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-xiaomi-pad-6s-pro-midnight-5bdddef7-e580-447c-9cb9-eb50d8115b89</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-xiaomi-pad-6s-pro-midnight-5bdddef7-e580-447c-9cb9-eb50d8115b89</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4482,7 +4482,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-xiaomi-pad-6s-pro-white-7afabb99-ac4f-4630-90d0-1c4385f778b4</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-xiaomi-pad-6s-pro-white-7afabb99-ac4f-4630-90d0-1c4385f778b4</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4496,7 +4496,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-xiaomi-pad-6s-pro-black-224fa51f-b372-4dae-8538-a5f5682a9b80</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-xiaomi-pad-6s-pro-black-224fa51f-b372-4dae-8538-a5f5682a9b80</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4510,7 +4510,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-lenovo-tab-extreme-starlight-322d19e3-86e0-4269-ad58-82ed698cc5b9</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-lenovo-tab-extreme-starlight-322d19e3-86e0-4269-ad58-82ed698cc5b9</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4524,7 +4524,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-lenovo-tab-extreme-starlight-6e776df5-6817-41eb-90b8-4e2859d2a5bb</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-lenovo-tab-extreme-starlight-6e776df5-6817-41eb-90b8-4e2859d2a5bb</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4538,7 +4538,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-lenovo-tab-extreme-starlight-0cbf389a-648c-4352-85a7-8263b0bcf5d4</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-lenovo-tab-extreme-starlight-0cbf389a-648c-4352-85a7-8263b0bcf5d4</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4552,7 +4552,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-ipad-mini-6-silver-7bd0a45b-1d29-472e-a374-7f29339b6c2d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-ipad-mini-6-silver-7bd0a45b-1d29-472e-a374-7f29339b6c2d</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4566,7 +4566,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-ipad-mini-6-starlight-84cc4acf-913d-4960-b23f-f80eab29ad95</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-ipad-mini-6-starlight-84cc4acf-913d-4960-b23f-f80eab29ad95</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4580,7 +4580,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-samsung-galaxy-tab-a9-black-c2a3f1b6-1e89-45f2-8b4b-9a6c5193887c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-samsung-galaxy-tab-a9-black-c2a3f1b6-1e89-45f2-8b4b-9a6c5193887c</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4594,7 +4594,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-samsung-galaxy-tab-a9-titanium-0b19a77a-ea5b-476a-8dc5-50c2c5d5ba49</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-samsung-galaxy-tab-a9-titanium-0b19a77a-ea5b-476a-8dc5-50c2c5d5ba49</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4608,7 +4608,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-redmi-pad-pro-starlight-7a71bf19-c0a5-48f6-bbfd-915d8f16b29a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-redmi-pad-pro-starlight-7a71bf19-c0a5-48f6-bbfd-915d8f16b29a</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4622,7 +4622,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-redmi-pad-pro-black-a29c57ba-1a64-4772-aaaf-024fc0ea80ad</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-redmi-pad-pro-black-a29c57ba-1a64-4772-aaaf-024fc0ea80ad</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4636,7 +4636,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-redmi-pad-pro-black-c627f551-8158-4709-9a20-dd606a904503</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-redmi-pad-pro-black-c627f551-8158-4709-9a20-dd606a904503</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4650,7 +4650,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-apple-watch-ultra-2-midnight-601c8561-0eba-416e-adce-7c0c9aaf138d</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-apple-watch-ultra-2-midnight-601c8561-0eba-416e-adce-7c0c9aaf138d</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4664,7 +4664,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-apple-watch-ultra-2-midnight-3df833a6-cc8a-4719-963d-8c9e830c63a9</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-apple-watch-ultra-2-midnight-3df833a6-cc8a-4719-963d-8c9e830c63a9</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4678,7 +4678,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-galaxy-watch6-classic-black-57669a45-e3d1-4643-8f2f-7862bc51e6f5</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-galaxy-watch6-classic-black-57669a45-e3d1-4643-8f2f-7862bc51e6f5</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4692,7 +4692,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-galaxy-watch6-classic-black-771d800e-5416-4dcf-8e66-1672b77d5a27</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-galaxy-watch6-classic-black-771d800e-5416-4dcf-8e66-1672b77d5a27</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4706,7 +4706,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-galaxy-watch6-classic-titanium-52fc9181-f6cb-4698-8c29-28992e712799</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-galaxy-watch6-classic-titanium-52fc9181-f6cb-4698-8c29-28992e712799</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4720,7 +4720,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-watch6-classic-starlight-9e7a7a0a-80e1-4582-9d07-788d557b3e6c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-watch6-classic-starlight-9e7a7a0a-80e1-4582-9d07-788d557b3e6c</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4734,7 +4734,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-pixel-watch-2-midnight-13c0f80a-230f-4566-90ea-1672fe44b55b</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-pixel-watch-2-midnight-13c0f80a-230f-4566-90ea-1672fe44b55b</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4748,7 +4748,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-pixel-watch-2-midnight-6c5f892d-6f01-4993-88d6-b0c7791286fe</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-pixel-watch-2-midnight-6c5f892d-6f01-4993-88d6-b0c7791286fe</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4762,7 +4762,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-garmin-fenix-7x-black-67661f3e-d9e4-49c4-ac2f-9379cfbb1766</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-garmin-fenix-7x-black-67661f3e-d9e4-49c4-ac2f-9379cfbb1766</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4776,7 +4776,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-garmin-fenix-7x-white-95fea589-0c00-4ac3-b2a0-4c607a29469c</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-garmin-fenix-7x-white-95fea589-0c00-4ac3-b2a0-4c607a29469c</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4790,7 +4790,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-huawei-watch-gt-4-black-05c02f40-2a63-44c7-9040-5ab213e03e06</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-huawei-watch-gt-4-black-05c02f40-2a63-44c7-9040-5ab213e03e06</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4804,7 +4804,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-huawei-watch-gt-4-titanium-4c3caf09-9254-4e66-8473-dc7251651d1e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-huawei-watch-gt-4-titanium-4c3caf09-9254-4e66-8473-dc7251651d1e</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4818,7 +4818,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-huawei-watch-gt-4-white-0e80be7c-7de3-4217-84a7-a21a90e5ce13</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-huawei-watch-gt-4-white-0e80be7c-7de3-4217-84a7-a21a90e5ce13</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4832,7 +4832,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-amazfit-t-rex-2-silver-cd779398-49d4-46f6-931e-5a25f786bd82</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-amazfit-t-rex-2-silver-cd779398-49d4-46f6-931e-5a25f786bd82</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4846,7 +4846,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-amazfit-t-rex-2-midnight-5546bfd0-3ac2-4342-a0ac-5a76034de785</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-amazfit-t-rex-2-midnight-5546bfd0-3ac2-4342-a0ac-5a76034de785</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4860,7 +4860,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-withings-scanwatch-2-midnight-eca62779-d0b5-4934-8dc7-8c922b69e69a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-withings-scanwatch-2-midnight-eca62779-d0b5-4934-8dc7-8c922b69e69a</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4874,7 +4874,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-withings-scanwatch-2-midnight-6c184127-a85e-425f-bc0d-e635cd8e5402</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-withings-scanwatch-2-midnight-6c184127-a85e-425f-bc0d-e635cd8e5402</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4888,7 +4888,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-withings-scanwatch-2-starlight-cff58b6a-0251-4534-bf09-6361904e2e13</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-withings-scanwatch-2-starlight-cff58b6a-0251-4534-bf09-6361904e2e13</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4902,7 +4902,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-withings-scanwatch-2-titanium-dd82d8d1-63c5-49be-b4e5-65f6e6ac1dc6</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-withings-scanwatch-2-titanium-dd82d8d1-63c5-49be-b4e5-65f6e6ac1dc6</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4916,7 +4916,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-samsung-galaxy-ring-black-b6082aa0-75dc-40ad-bb6b-40fc6eed9b8e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-samsung-galaxy-ring-black-b6082aa0-75dc-40ad-bb6b-40fc6eed9b8e</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4930,7 +4930,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-samsung-galaxy-ring-white-408c1486-735d-4f9a-a83d-b58d91763331</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-samsung-galaxy-ring-white-408c1486-735d-4f9a-a83d-b58d91763331</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4944,7 +4944,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-samsung-galaxy-ring-silver-65c18bee-108e-4ce7-8c36-0a20a2335b32</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-samsung-galaxy-ring-silver-65c18bee-108e-4ce7-8c36-0a20a2335b32</loc>
     <lastmod>2026-05-31T15:32:20+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4958,7 +4958,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-galaxy-s24-ultra</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-galaxy-s24-ultra</loc>
     <lastmod>2026-06-02T16:59:41+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4968,7 +4968,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-huawei-watch-gt-4-midnight-3b8862e4-31e8-4a20-812f-b1ffbbe11259</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-huawei-watch-gt-4-midnight-3b8862e4-31e8-4a20-812f-b1ffbbe11259</loc>
     <lastmod>2026-06-02T16:59:42+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4982,7 +4982,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-sennheiser-ie-600-silver-98e45b80-b55c-40cf-8987-01934b14b689</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-sennheiser-ie-600-silver-98e45b80-b55c-40cf-8987-01934b14b689</loc>
     <lastmod>2026-06-02T16:59:43+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -4996,7 +4996,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/sony-nothing-phone-2-black-8fce7f4a-832c-45c5-aebf-d87634fa7573</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/sony-nothing-phone-2-black-8fce7f4a-832c-45c5-aebf-d87634fa7573</loc>
     <lastmod>2026-06-04T15:56:35+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5010,7 +5010,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-beats-fit-pro-midnight-6c849605-a1cb-4fe8-a043-c90a29ed69e0</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-beats-fit-pro-midnight-6c849605-a1cb-4fe8-a043-c90a29ed69e0</loc>
     <lastmod>2026-06-02T17:06:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5024,7 +5024,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-quietcomfort-ultra-silver-dc662e92-fa45-41d6-8065-8d3cd1b1ad67</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-quietcomfort-ultra-silver-dc662e92-fa45-41d6-8065-8d3cd1b1ad67</loc>
     <lastmod>2026-06-02T16:59:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5038,7 +5038,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/huawei-redmi-pad-pro-midnight-489499a4-0d8d-4fa9-92fd-1427f10e052a</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/huawei-redmi-pad-pro-midnight-489499a4-0d8d-4fa9-92fd-1427f10e052a</loc>
     <lastmod>2026-06-02T16:59:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5052,7 +5052,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-garmin-fenix-7x-silver-b558ed32-1902-4675-8deb-b9b5db40a808</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-garmin-fenix-7x-silver-b558ed32-1902-4675-8deb-b9b5db40a808</loc>
     <lastmod>2026-06-02T17:04:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5066,7 +5066,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-oneplus-12-black-8dba7307-db42-4cf5-9f43-7f80c89b5f74</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-oneplus-12-black-8dba7307-db42-4cf5-9f43-7f80c89b5f74</loc>
     <lastmod>2026-06-04T15:56:35+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5080,7 +5080,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-ipad-air-m2-midnight-79ba2501-0cea-4a69-87ef-b800dfbb1118</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-ipad-air-m2-midnight-79ba2501-0cea-4a69-87ef-b800dfbb1118</loc>
     <lastmod>2026-06-02T17:04:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5094,7 +5094,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/apple-wh-1000xm5-white-eff369e4-3ae4-40b0-8596-b42867280b80</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/apple-wh-1000xm5-white-eff369e4-3ae4-40b0-8596-b42867280b80</loc>
     <lastmod>2026-06-02T17:04:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5108,7 +5108,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/xiaomi-momentum-tw-4-titanium-90a21994-1a07-46ea-ab70-0fd5edff03e7</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/xiaomi-momentum-tw-4-titanium-90a21994-1a07-46ea-ab70-0fd5edff03e7</loc>
     <lastmod>2026-06-02T17:04:46+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -5122,7 +5122,7 @@
 </image:image>
         </url>
     <url>
-    <loc>http://localhost/products/samsung-xiaomi-pad-6s-pro-starlight-7dadd10a-3657-4516-add2-533874cf418e</loc>
+    <loc>https://electronics-store-50f9.onrender.com/products/samsung-xiaomi-pad-6s-pro-starlight-7dadd10a-3657-4516-add2-533874cf418e</loc>
     <lastmod>2026-06-04T15:56:35+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

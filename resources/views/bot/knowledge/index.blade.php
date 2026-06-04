@@ -14,7 +14,7 @@
 ### {{ $category->name }}
 
 - **Количество товаров:** {{ $category->products_count }}
-- **Ссылка на категорию:** {{ route('catalog.index', $category->id) }}
+- **Ссылка на категорию:** {{ route('catalog.index', ['category_id' => $category->id]) }}
 @if($category->description)
 - **Описание:** {{ $category->description }}
 @endif

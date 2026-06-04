@@ -45,6 +45,6 @@
 
 ---
 
-- [← Вернуться в категорию]({{ route('catalog.index', $product->category->id) }})
+- [← Вернуться в категорию]({{ route('catalog.index', ['category_id' => $product->category->id]) }})
 - [Все категории]({{ route('catalog.index') }})
 - [FAQ]({{ route('bot.knowledge.faq') }})

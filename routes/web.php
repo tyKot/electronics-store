@@ -11,6 +11,10 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/dd', function () {
+    dd(route('catalog.index', ['category_id' => 1]));
+});
+
 Route::get('/dashboard', function () {
     return redirect(route('home'));
 })->name('dashboard');
